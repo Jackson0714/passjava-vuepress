@@ -26,6 +26,10 @@ footer: |-
 - [贡献指南](./passjava/contribution-guideline.md)
 - [常见问题](./passjava/faq.md)
 
+## Star 趋势
+
+![Stars](https://api.star-history.com/svg?repos=Jackson0714/PassJava-Learning&type=date)
+
 ## 关于作者
 
 🌈InfoQ 签约作者、蓝桥签约作者、阿里云社区博客专家、51CTO Top红人。
