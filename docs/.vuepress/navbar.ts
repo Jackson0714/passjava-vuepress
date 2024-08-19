@@ -4,7 +4,7 @@ export default navbar([
   { text: "我的专栏", icon: "framework", link: "/home.md" },
   // { text: "架构进阶之路", icon: "book", link: "/home.md" },
   { text: "我的项目", icon: "icon-temp", link: "/my-project/" },
-  { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
+  // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",
     icon: "earth-americas",
