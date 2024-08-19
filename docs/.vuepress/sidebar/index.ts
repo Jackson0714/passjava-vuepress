@@ -7,7 +7,7 @@ import { myColumn } from "./my-column.js";
 export default sidebar({
   // 应该把更精确的路径放置在前边
   "/about-the-author/": aboutTheAuthor,
-  "/high-quality-articles/": highQualityArticles,
+  // "/high-quality-articles/": highQualityArticles,
   "/my-project/": myProject,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
