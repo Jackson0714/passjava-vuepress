@@ -16,3 +16,5 @@ traversal-folder-replace-string.py
 format-markdown.py
 package-lock.json
 lintmd-config.json
+dist.tar
+/dist
