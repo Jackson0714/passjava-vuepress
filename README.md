@@ -84,15 +84,15 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 ## Java 学习路线（赛亚人版）
 
-[🌈Java 学习路线（赛亚人版）](http://passjava.cn/#/01.%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B/9.Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF)
+[🌈Java 学习路线（赛亚人版）](http://passjava.cn/my-project/passjava/01.introduction/09.Java_study_route.html)
 
 ## PassJava 部署教程
 
 ### 1、Mac M1 部署项目
 
-[Mac M1 部署项目](http://www.passjava.cn/#/01.项目简介/7.本地部署项目Mac版):heavy_check_mark:
+[Mac M1 部署项目](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark:
 
-Windows 版正在更新中，可参考 Mac 版的部署教程。
+[Windows bushu xiangmu ](http://passjava.cn/my-project/passjava/01.introduction/06.build_on_windows.html)
 
 
 前后端都在这个仓库：
@@ -101,7 +101,7 @@ Windows 版正在更新中，可参考 Mac 版的部署教程。
 
 ### 2、后端部署教程
 
-[后端部署教程](http://www.passjava.cn/#/01.PassJava/01.Introduction/7.%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AEMac%E7%89%88):heavy_check_mark: 
+[后端部署教程](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark: 
 
 ### 3、前端部署教程
 
