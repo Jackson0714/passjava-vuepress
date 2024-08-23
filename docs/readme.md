@@ -26,9 +26,6 @@ footer: |-
 - [贡献指南](./passjava/contribution-guideline.md)
 - [常见问题](./passjava/faq.md)
 
-## Star 趋势
-
-![Stars](https://api.star-history.com/svg?repos=Jackson0714/PassJava-Learning&type=date)
 
 ## 关于作者
 
@@ -42,9 +39,17 @@ footer: |-
 
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
+## 网站原创文章汇总
+
 ![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
+
+
 ### 技术支持🌈
 
+> 因作者本人平时很忙，如果需要技术支持，请加入我的 VIP 答疑星球（下方扫码加入）。
+
+## Star 趋势
+![Stars](https://api.star-history.com/svg?repos=Jackson0714/PassJava-Learning&type=date)
 
 ## 实战项目
 

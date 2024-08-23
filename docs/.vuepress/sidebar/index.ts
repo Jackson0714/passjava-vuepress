@@ -1,6 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 import { highQualityArticles } from "./high-quality-articles.js";
 import { myProject } from "./my-project.js";
+import { omnibus } from "./omnibus.js";
 import { aboutTheAuthor } from "./about-the-author.js";
 import { myColumn } from "./my-column.js";
 
@@ -9,6 +10,7 @@ export default sidebar({
   "/about-the-author/": aboutTheAuthor,
   // "/high-quality-articles/": highQualityArticles,
   "/my-project/": myProject,
+  "/omnibus/": omnibus,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",
