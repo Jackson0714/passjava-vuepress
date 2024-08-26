@@ -18,3 +18,4 @@ package-lock.json
 lintmd-config.json
 dist.tar
 /dist
+.obsidian/
