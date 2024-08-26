@@ -47,7 +47,7 @@ export default hopeTheme({
     // https://ecosystem.vuejs.press/zh/plugins/blog/comment/waline/
     comment: {
       provider: "Waline",
-      serverURL: "https://passjava-learning-vuepress-comments-waline-k4tey84u6.vercel.app/", // your server url
+      serverURL: "https://comment.passjava.cn/", // your server url
     },
     components: {
       rootComponents: {
