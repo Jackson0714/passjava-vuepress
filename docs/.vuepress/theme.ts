@@ -43,6 +43,12 @@ export default hopeTheme({
   },
 
   plugins: {
+    // 参考：https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+    // https://ecosystem.vuejs.press/zh/plugins/blog/comment/waline/
+    comment: {
+      provider: "Waline",
+      serverURL: "https://passjava-learning-vuepress-comments-waline-k4tey84u6.vercel.app/", // your server url
+    },
     components: {
       rootComponents: {
         // https://plugin-components.vuejs.press/zh/guide/utilities/notice.html#%E7%94%A8%E6%B3%95
