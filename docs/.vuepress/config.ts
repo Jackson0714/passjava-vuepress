@@ -47,7 +47,7 @@ export default defineUserConfig({
       `var _hmt = _hmt || [];
         (function() {
           var hm = document.createElement("script");
-          hm.src = "https://hm.baidu.com/hm.js?111111122220dfe9d755e36ebec8faa2d6e1bb5b";
+          hm.src = "https://hm.baidu.com/hm.js?e220dfe9d755e36ebec8faa2d6e1bb5b";
           var s = document.getElementsByTagName("script")[0]; 
           s.parentNode.insertBefore(hm, s);
         })();`,
