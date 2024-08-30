@@ -30,7 +30,7 @@ export default hopeTheme({
     '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
   displayFooter: true,
 
-  pageInfo: ["Author", "Category", "Tag", "Original", "Word", "ReadingTime"],
+  pageInfo: ["Author", "Date", "Category", "Tag", "Original", "Word", "ReadingTime", "PageView"],
 
   blog: {
     intro: "/about-the-author/",
@@ -48,6 +48,7 @@ export default hopeTheme({
     comment: {
       provider: "Waline",
       serverURL: "https://comment.passjava.cn/", // your server url
+      pageview: true,
     },
     components: {
       rootComponents: {
