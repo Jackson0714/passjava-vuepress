@@ -1,7 +1,9 @@
 ---
-title: 一键生成 docsify 的目录
+title: 一键生成基于 docsify 框架网站的侧边栏
 tag:
   - 开源项目
+  - 博客美化
+  - docsify
 date: 2024-09-06
 ---
 
