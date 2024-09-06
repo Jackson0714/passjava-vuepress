@@ -7,6 +7,13 @@ export const myEssay = arraySidebar([
     icon: "micro-service",
     prefix: "my-blog/",
     collapsible: true,
-    children: getChildren('./docs/my-essay/my-blog/'),
+    children: "structure",
+  },
+  {
+    text: "我的开源项目",
+    icon: "micro-service",
+    prefix: "my-opensource/",
+    collapsible: true,
+    children: "structure",
   },
 ]);

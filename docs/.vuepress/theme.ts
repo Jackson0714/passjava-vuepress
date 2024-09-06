@@ -23,7 +23,7 @@ export default hopeTheme({
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
   pure: true,
-  breadcrumb: false,
+  breadcrumb: true,
   navbar,
   sidebar,
   footer:
