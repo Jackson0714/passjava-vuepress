@@ -9,7 +9,10 @@ export function getChildren(path, sort=true) {
     let root = []
     readDirSync(path, root)
     root = root.map(item=>{
-        if (item.split('/')[5]){
+        if (item.split('/')[6]){
+            return item.split('/')[6]
+        }
+        else if (item.split('/')[5]){
             return item.split('/')[5]
         } else if (item.split('/')[4]){
             return item.split('/')[4]

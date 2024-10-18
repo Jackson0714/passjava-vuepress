@@ -86,5 +86,49 @@ export const myColumn = arraySidebar([
     prefix: "my-column/distributed-protocol/",
     collapsible: true,
     children: getChildren('./docs/my-column/distributed-protocol')  
+  },
+  {
+    text: "Java核心知识",
+    icon: "distributed",
+    prefix: "my-column/java-core/",
+    collapsible: true,
+    children: [
+      {
+        text: "Java基础知识",
+        icon: "distributed",
+        prefix: "01.JavaCore",
+        collapsible: true,
+        children: getChildren('./docs/my-column/java-core/01.JavaCore')  
+      },
+      {
+        text: "Spring核心知识",
+        icon: "distributed",
+        prefix: "02.Spring",
+        collapsible: true,
+        children: [
+          {
+            text: "Spring基础知识",
+            icon: "distributed",
+            prefix: "01.SpringCore",
+            collapsible: true,
+            children: getChildren('./docs/my-column/java-core/02.Spring/01.SpringCore')  
+          },
+        ]
+      },
+    ]
+  },
+  {
+    text: "Java并发编程",
+    icon: "distributed",
+    prefix: "my-column/java-concurrent/",
+    collapsible: true,
+    children: getChildren('./docs/my-column/java-concurrent') 
+  },
+  {
+    text: "redis",
+    icon: "distributed",
+    prefix: "my-column/redis/",
+    collapsible: true,
+    children: getChildren('./docs/my-column/redis')
   }
 ]);
