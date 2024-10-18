@@ -115,13 +115,13 @@ export const myColumn = arraySidebar([
           },
         ]
       },
-      {
-        text: "Mybatis基础知识",
-        icon: "distributed",
-        prefix: "01.JavaCore",
-        collapsible: true,
-        children: getChildren('./docs/my-column/java-core/01.JavaCore')  
-      },
+      // {
+      //   text: "Mybatis基础知识",
+      //   icon: "distributed",
+      //   prefix: "01.JavaCore",
+      //   collapsible: true,
+      //   children: getChildren('./docs/my-column/java-core/01.JavaCore')  
+      // },
     ]
   },
   {
