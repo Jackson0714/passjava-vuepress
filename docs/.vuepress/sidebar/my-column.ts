@@ -115,6 +115,13 @@ export const myColumn = arraySidebar([
           },
         ]
       },
+      {
+        text: "Mybatis基础知识",
+        icon: "distributed",
+        prefix: "01.JavaCore",
+        collapsible: true,
+        children: getChildren('./docs/my-column/java-core/01.JavaCore')  
+      },
     ]
   },
   {
@@ -123,12 +130,5 @@ export const myColumn = arraySidebar([
     prefix: "my-column/java-concurrent/",
     collapsible: true,
     children: getChildren('./docs/my-column/java-concurrent') 
-  },
-  {
-    text: "redis",
-    icon: "distributed",
-    prefix: "my-column/redis/",
-    collapsible: true,
-    children: getChildren('./docs/my-column/redis')
   }
 ]);
