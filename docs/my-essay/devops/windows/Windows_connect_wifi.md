@@ -4,8 +4,6 @@ title: Windows 自动连接 wifi
 
 ## 命令行连接 WIFI
 
-## 连接 WIFI 网络
-
 ### 查看已保存的网络连接
 
  netsh wlan show profiles
@@ -13,8 +11,7 @@ title: Windows 自动连接 wifi
 ![Pasted image 20240708105258.png](http://cdn.jayh.club/uPic/202407191059987YmTEy8.png)
 
 
-
-### 连接网络
+## 自动连接网络
 
  netsh wlan connect name=HUAWEI_1729
  ![Pasted image 20240708105309.png](http://cdn.jayh.club/uPic/202407191059864nOD3PF.png)

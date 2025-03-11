@@ -63,7 +63,7 @@ export default hopeTheme({
             actions: [
               {
                 text: "前往了解",
-                link: "https://passjava.cn/about-the-author/zhishixingqiu-two-years.html",
+                link: "http://passjava.cn/about-the-author/zhishixingqiu-two-years.html",
                 type: "primary",
               },
             ],
