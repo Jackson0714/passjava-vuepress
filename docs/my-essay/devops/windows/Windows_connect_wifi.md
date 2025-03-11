@@ -2,6 +2,25 @@
 title: Windows 自动连接 wifi
 ---
 
+## 命令行连接 WIFI
+
+## 连接 WIFI 网络
+
+### 查看已保存的网络连接
+
+ netsh wlan show profiles
+ 查看 WIFI
+![Pasted image 20240708105258.png](http://cdn.jayh.club/uPic/202407191059987YmTEy8.png)
+
+
+
+### 连接网络
+
+ netsh wlan connect name=HUAWEI_1729
+ ![Pasted image 20240708105309.png](http://cdn.jayh.club/uPic/202407191059864nOD3PF.png)
+
+## 自动连接 WIFI
+
 在Windows操作系统中，可以使用批处理脚本（Batch Script）或PowerShell脚本来实现定期自动连接Wi-Fi网络的功能。以下是两种方法的示例：
 
 ### 方法1：使用批处理脚本
@@ -121,9 +140,7 @@ if ($mediaConnectState -eq '' -or $mediaConnectState -eq $null) {
 
 
 
-
-
-![image-20241224150550867](../../../../../lms-docs-vuepress/my-docs/src/images/image-20241224150550867.png)
+![image-20250311195517319](http://cdn.jayh.club/uPic/image-20250311195517319AARzGj.png)
 
 set-ExecutionPolicy RemoteSigned
 

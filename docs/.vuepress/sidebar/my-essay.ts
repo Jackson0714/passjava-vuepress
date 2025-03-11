@@ -16,4 +16,11 @@ export const myEssay = arraySidebar([
     collapsible: true,
     children: "structure",
   },
+  {
+    text: "DevOps",
+    icon: "micro-service",
+    prefix: "devops/",
+    collapsible: true,
+    children: "structure",
+  },
 ]);
