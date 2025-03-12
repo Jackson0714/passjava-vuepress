@@ -23,4 +23,11 @@ export const myEssay = arraySidebar([
     collapsible: true,
     children: "structure",
   },
+  {
+    text: "开源周",
+    icon: "micro-service",
+    prefix: "open-source-weekly/",
+    collapsible: true,
+    children: "structure",
+  },
 ]);
