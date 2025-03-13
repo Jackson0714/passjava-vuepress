@@ -162,3 +162,5 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 最新更新会第一时间同步在公众号，推荐关注！另外，公众号上有很多干货不会同步在线阅读网站。
 
 ![PassJava 官方公众号](http://cdn.jayh.club/uPic/640Lt8BjR.jpg)
+
+<img src="http://cdn.jayh.club/uPic/zanshangmaO9DpQC.jpg" style="zoom:25%;" />

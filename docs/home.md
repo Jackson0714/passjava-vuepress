@@ -23,3 +23,5 @@ title: PassJava博客-悟空聊架构-Java教程文档
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号“**悟空聊架构**”。
 
 ![PassJava 官方公众号](http://cdn.jayh.club/uPic/640Lt8BjR.jpg)
+
+<img src="http://cdn.jayh.club/uPic/zanshangmaO9DpQC.jpg" style="zoom:25%;" />
