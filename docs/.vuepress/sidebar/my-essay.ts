@@ -30,4 +30,18 @@ export const myEssay = arraySidebar([
     collapsible: true,
     children: "structure",
   },
+  {
+    text: "AI",
+    icon: "micro-service",
+    prefix: "AI/",
+    collapsible: true,
+    children: "structure",
+  },
+  {
+    text: "工具",
+    icon: "micro-service",
+    prefix: "tools/",
+    collapsible: true,
+    children: "structure",
+  },
 ]);
