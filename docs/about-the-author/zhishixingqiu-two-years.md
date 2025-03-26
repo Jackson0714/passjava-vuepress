@@ -7,3 +7,7 @@ icon: about
 ## 提供的服务
 ![知识星球提供的服务](http://cdn.jayh.club/uPic/image-2024072011065937377a74q.png)
 
+## 领取星球优惠券
+
+![星球优惠券-100](http://cdn.jayh.club/uPic/image-20250326092154874VikRl6-20250326092233583YCpWhX.png)
+

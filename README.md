@@ -50,7 +50,7 @@ http://www.passjava.cn
 
 六、星球打卡活动，赠书赠书赠书
 
-![星球优惠券-100](http://cdn.jayh.club/uPic/xingqiu-2025xYGCEX.png)
+![星球优惠券-100](http://cdn.jayh.club/uPic/image-20250326092154874VikRl6.png)
 
 
 **悟空的多个技术专题**：
@@ -116,7 +116,7 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
 ![image-20230326094344901](http://cdn.jayh.club/uPic/image-20230326094344901tF4uTBX6iqFqH8riqnvw656Q.png)
 
-![](http://cdn.jayh.club/uPic/xingqiu-2025xYGCEX.png)
+![星球优惠券-100](http://cdn.jayh.club/uPic/image-20250326092154874VikRl61wOtK0.png)
 
 ### 简介
 
