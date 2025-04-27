@@ -26,6 +26,10 @@ footer: |-
 - [贡献指南](./passjava/contribution-guideline.md)
 - [常见问题](./passjava/faq.md)
 
+## 网站原创文章汇总
+
+![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
+
 
 ## 关于作者
 
@@ -37,19 +41,25 @@ footer: |-
 
 🍎目前在一家上市公司从事基础架构建设工作。
 
+## 微服务
+
+[SpringCloud架构解析](http://www.passjava.cn/my-column/springcloud/)
+
+## ELK
+
+[ELK统一日志平台原理和实践](http://www.passjava.cn/my-column/elk/)
+
+## Jenkins 自动化部署
+[Jenkins 自动化部署](http://www.passjava.cn/my-column/jenkins)
+
+## 分布式
+
+[分布式](http://www.passjava.cn/my-column/distributed-protocol)
+
+超多专栏，尽在网站中。
+
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
-## 网站原创文章汇总
-
-![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
-
-
-### 技术支持🌈
-
-> 因作者本人平时很忙，如果需要技术支持，请加入我的 VIP 答疑星球（下方扫码加入）。
-
-## Star 趋势
-![Stars](https://api.star-history.com/svg?repos=Jackson0714/PassJava-Learning&type=date)
 
 ## 实战项目
 
@@ -156,6 +166,10 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 - PassJava 是一款Java`面试刷题`的开源系统，可以用零碎时间利用小程序查看常见面试题，夯实Java基础。
 - PassJava 项目可以教会你如何搭建SpringBoot项目，Spring Cloud项目
 - 采用流行的技术，如 SpringBoot、MyBatis、Redis、 MySql、 MongoDB、 RabbitMQ、Elasticsearch，采用Docker容器化部署。
+
+
+## Star 趋势
+![Stars](https://api.star-history.com/svg?repos=Jackson0714/PassJava-Learning&type=date)
 
 ## 公众号
 
