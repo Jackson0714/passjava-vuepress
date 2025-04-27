@@ -41,7 +41,7 @@ lastReadDate: 2023-08-23
 
 ## 5.3.3　查找元素
 
-> 📌 Optional<T>类（java.util.Optional）是一个容器类，代表一个值存在或不存在。在上面的代码中，findAny可能什么元素都没找到。Java 8的库设计人员引入了Optional<T>，这样就不用返回众所周知容易出问题的null了。 ^CB-2qg3FS3EPG1r6hn6gY7X0FdL-103-825-1023
+> 📌 `Optional<T>`类（java.util.Optional）是一个容器类，代表一个值存在或不存在。在上面的代码中，findAny可能什么元素都没找到。Java 8的库设计人员引入了`Optional<T>`，这样就不用返回众所周知容易出问题的null了。 ^CB-2qg3FS3EPG1r6hn6gY7X0FdL-103-825-1023
 - 💭 Optional 简介
     - ⏱ 2023-08-23 23:20:20 
 
@@ -75,7 +75,7 @@ lastReadDate: 2023-08-23
 ## 5.3.3　查找元素
 
 ### 划线评论
-> 📌 Optional<T>类（java.util.Optional）是一个容器类，代表一个值存在或不存在。在上面的代码中，findAny可能什么元素都没找到。Java 8的库设计人员引入了Optional<T>，这样就不用返回众所周知容易出问题的null了。  ^37992928-7KGLnBU7m
+> 📌 `Optional<T>`类（java.util.Optional）是一个容器类，代表一个值存在或不存在。在上面的代码中，findAny可能什么元素都没找到。Java 8的库设计人员引入了`Optional<T>`，这样就不用返回众所周知容易出问题的null了。 
     - 💭 Optional 简介
 
     - ⏱ 2023-08-23 23:20:28
