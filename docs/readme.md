@@ -19,12 +19,12 @@ footer: |-
 highlights:
   - header: 精品专栏
     description: 「Java学习 + 架构指南」涵盖 Java 程序员、架构师需要掌握的核心知识
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    image: /assets/image/features.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg
     bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
+    background-repeat: repeat
+    background-size: initial
     features:
       - title: SpringCloud架构解析
         icon: micro-service
@@ -45,35 +45,34 @@ highlights:
         icon: distributed
         details: 分布式原理、Paxos、Raft
         link: http://www.passjava.cn/my-column/distributed-protocol
+  - header: 关于网站
+    description: 悟空聊架构 已经持续维护 5 年多啦！
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    highlights:
+      - title: 项目介绍
+        icon: circle-half-stroke
+        details: 
+        link: http://www.passjava.cn/passjava/intro.html
+
+  - header: 关于作者
+    description: 
+    image: /assets/image/ui.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
+    highlights:
+      - title: 🌈InfoQ 签约作者、蓝桥签约作者、阿里云社区博客专家、51CTO Top红人。
+        icon: palette
+      - title: 🍭公众号：悟空聊架构，30000+ 技术爱好者关注。
+      - title: 💪🏻擅长微服务、分布式、架构设计。
+      - title: 🍎目前在一家上市公司从事基础架构建设工作。
 
 ---
 
-## 关于网站
-
-悟空聊架构 已经持续维护 5 年多啦！
-
-如果觉得 PassJava 的内容对你有帮助的话，还请点个免费的 Star（绝不强制点 Star，觉得内容不错有收货再点赞就好），这是对我最大的鼓励，感谢各位一路同行，共勉！传送门：[GitHub](https://github.com/Jackson0714/PassJava-Learning) | [Gitee](https://gitee.com/jayh2018)。
-
-- [项目介绍](./passjava/intro.md)
-- [贡献指南](./passjava/contribution-guideline.md)
-- [常见问题](./passjava/faq.md)
-
 ## 网站原创文章汇总
 
-![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
-
-
-## 关于作者
-
-🌈InfoQ 签约作者、蓝桥签约作者、阿里云社区博客专家、51CTO Top红人。
-
-🍭公众号：悟空聊架构，30000+ 技术爱好者关注。
-
-💪🏻擅长微服务、分布式、架构设计。
-
-🍎目前在一家上市公司从事基础架构建设工作。
-
-
+ ![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
 
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
