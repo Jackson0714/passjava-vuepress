@@ -4,21 +4,21 @@ icon: home
 title: 悟空聊架构
 heroImage: /logo.svg
 heroText: PassJava
-tagline: 「Java学习 + 架构指南」涵盖 Java 程序员、架构师需要掌握的核心知识
+tagline: 架构师打怪升级之路
 actions:
   - text: 开始阅读
     link: /home.md
-    type: primary
+    type: default
   - text: 知识星球
     link: /about-the-author/zhishixingqiu-two-years.md
-    type: default
+    type: primary
 footer: |-
   <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备19010052号-2</a> | 主题: <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a>
 
 
 highlights:
   - header: 精品专栏
-    description: 
+    description: 「Java学习 + 架构指南」涵盖 Java 程序员、架构师需要掌握的核心知识
     image: /assets/image/markdown.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
