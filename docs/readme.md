@@ -14,6 +14,38 @@ actions:
     type: default
 footer: |-
   <a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备19010052号-2</a> | 主题: <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank">VuePress Theme Hope</a>
+
+
+highlights:
+  - header: 精品专栏
+    description: 
+    image: /assets/image/markdown.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
+    bgImageStyle:
+      background-repeat: repeat
+      background-size: initial
+    features:
+      - title: SpringCloud架构解析
+        icon: micro-service
+        details: SpringCloud,Nacos,Gateway,Seta,Sentinal
+        link: http://www.passjava.cn/my-column/springcloud
+
+      - title: ELK统一日志平台原理和实践
+        icon: elk
+        details: ELK, elasticsearch, logstash, filebeat
+        link: http://www.passjava.cn/my-column/elk/
+
+      - title: Jenkins 自动化部署
+        icon: jenkins
+        details: 一键部署前后端代码
+        link: http://www.passjava.cn/my-column/jenkins
+
+      - title: 分布式原理和协议
+        icon: distributed
+        details: 分布式原理、Paxos、Raft
+        link: http://www.passjava.cn/my-column/distributed-protocol
+
 ---
 
 ## 关于网站
@@ -41,22 +73,7 @@ footer: |-
 
 🍎目前在一家上市公司从事基础架构建设工作。
 
-## 微服务
 
-[SpringCloud架构解析](http://www.passjava.cn/my-column/springcloud/)
-
-## ELK
-
-[ELK统一日志平台原理和实践](http://www.passjava.cn/my-column/elk/)
-
-## Jenkins 自动化部署
-[Jenkins 自动化部署](http://www.passjava.cn/my-column/jenkins)
-
-## 分布式
-
-[分布式](http://www.passjava.cn/my-column/distributed-protocol)
-
-超多专栏，尽在网站中。
 
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
