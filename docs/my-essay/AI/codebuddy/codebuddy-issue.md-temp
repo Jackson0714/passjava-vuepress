@@ -1,0 +1,27 @@
+---
+title: CodeBuddy 深度体验后，发现几个产品问题，望改进，祝越来越好
+date: 2025-05-14
+
+---
+
+
+
+## 问题1、不能将当前打开的代码文件作为上下文
+
+
+
+## 问题2、生成 logo 图片速度很慢，甚至会失败
+
+## 问题3、生成 logo 图片的命令末尾缺少引号
+
+![](http://cdn.jayh.club/uPic/image-20250514151206341OuYxin.png)
+
+命令如下：
+
+``` sh
+mkdir -p icons && echo "xxxx
+```
+
+CodeBuddy 会自动在控制台输出命令，但是因为缺少引号，导致需要用户手动输入引号才能创建 logo 图片。
+
+![](http://cdn.jayh.club/uPic/image-20250514151347588M6qYoY.png)

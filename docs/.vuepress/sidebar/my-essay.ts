@@ -35,7 +35,22 @@ export const myEssay = arraySidebar([
     icon: "micro-service",
     prefix: "AI/",
     collapsible: true,
-    children: "structure",
+    children: [
+      {
+        text: "AI 基础知识",
+        icon: "micro-service",
+        prefix: "",
+        collapsible: true,
+        children: "structure",
+      },
+      {
+        text: "CodeBuddy",
+        icon: "micro-service",
+        prefix: "codebuddy/",
+        collapsible: true,
+        children: "structure",
+      },
+    ],
   },
   {
     text: "工具",
