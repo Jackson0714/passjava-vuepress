@@ -20,3 +20,6 @@ dist.tar
 /dist
 .obsidian/
 **/.vuepress/config.ts
+dist.tar.gz
+
+

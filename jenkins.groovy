@@ -116,7 +116,7 @@ pipeline {
 def getSSHUrl(environment) {
     switch (environment) {
         case 'passjava-learning':
-            return 'ubuntu@129.211.188.218'
+            return 'git@129.211.188.218'
         default:
             error "Unsupported environment: ${environment}"
     }
