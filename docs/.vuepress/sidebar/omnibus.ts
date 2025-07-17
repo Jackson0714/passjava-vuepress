@@ -6,7 +6,7 @@ export const omnibus = arraySidebar([
     text: "阿里文章",
     icon: "micro-service",
     prefix: "ali/",
-    collapsible: true,
-    children: getChildren('./docs/omnibus/ali/')
-  }
+    collapsible: false,
+    children: "structure",
+  },
 ]);
