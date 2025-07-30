@@ -320,7 +320,7 @@ CREATE TABLE ExampleTable (
 
 打开服务 services.msc，找到可执行文件的路径。
 
-![img](http://cdn.jayh.club/uPic/1753338549263-2057c0e6-6355-4454-a732-06e1e6768057xUc95bSrNkVo.png)
+![img](http://cdn.jayh.club/uPic/1753338549263-2057c0e6-6355-4454-a732-06e1e6768057xUc95bSrNkVoNZjnU3.png)
 
 ```sh
 cd D:\Program Files\Kingbase\ES\V9\KESRealPro\V009R004C012\Server\bin
@@ -361,15 +361,15 @@ port=54325
 
 重新启动，启动成功，如下图所示：
 
-![image-20250724201706850](http://cdn.jayh.club/uPic/image-20250724201706850BjV1gO.png)
+![image-20250724201706850](http://cdn.jayh.club/uPic/image-20250724201706850BjV1gOsfXHrU.png)
 
 查看进程
 
-![img](http://cdn.jayh.club/uPic/1753341920964-181a2ee3-0ab8-407b-b37f-11e344637c5fbqzTFfOx3DzY.png)
+![img](http://cdn.jayh.club/uPic/1753341920964-181a2ee3-0ab8-407b-b37f-11e344637c5fbqzTFfOx3DzYenavYw.png)
 
 修改数据库连接的端口为 54325，连接成功，如下图所示：
 
-![img](http://cdn.jayh.club/uPic/1753342078542-496bd056-3c1b-49b8-b191-a03a18885e6bVTNMQvqXQ3EN.png)
+![img](http://cdn.jayh.club/uPic/1753342078542-496bd056-3c1b-49b8-b191-a03a18885e6bVTNMQvqXQ3ENCIr7VW.png)
 
 ### 3、无法连接数据库，报错乱码
 
