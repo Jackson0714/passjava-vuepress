@@ -63,7 +63,7 @@ https://app.cloud.tencent.com/detail/SPU_BHEHDBABGB3181
 
 ## 打开 Tem 站点
 
-http://<ip>:32000/login
+http://`ip`:32000/login
 
 ![image-20250728221947758](http://cdn.jayh.club/uPic/image-202507282219477582RxbFQ.png)
 
