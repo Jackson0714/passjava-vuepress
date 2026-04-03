@@ -14,7 +14,7 @@ date: 2025-05-14
 
 ## 问题3、生成 logo 图片的命令末尾缺少引号
 
-![](http://cdn.jayh.club/uPic/image-20250514151206341OuYxin.png)
+![](http://cdn.passjava.cn/uPic/image-20250514151206341OuYxin.png)
 
 命令如下：
 
@@ -24,4 +24,4 @@ mkdir -p icons && echo "xxxx
 
 CodeBuddy 会自动在控制台输出命令，但是因为缺少引号，导致需要用户手动输入引号才能创建 logo 图片。
 
-![](http://cdn.jayh.club/uPic/image-20250514151347588M6qYoY.png)
+![](http://cdn.passjava.cn/uPic/image-20250514151347588M6qYoY.png)

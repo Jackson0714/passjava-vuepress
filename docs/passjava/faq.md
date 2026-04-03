@@ -14,9 +14,8 @@ icon: help
 
 关注公众号免费送你多本优质面试 PDF 手册。
 
-![PassJava 官方公众号](http://cdn.jayh.club/uPic/640Lt8BjR.jpg)
+![PassJava 官方公众号](http://cdn.passjava.cn/uPic/640Lt8BjR.jpg)
 
 ## 如何看待 PassJava 的 star 数量很多？
-
 
 **用心做内容，真心希望能帮助到其他人。**

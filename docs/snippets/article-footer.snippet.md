@@ -1,1 +1,1 @@
-![PassJava 官方公众号](http://cdn.jayh.club/uPic/640Lt8BjR.jpg)
+![PassJava 官方公众号](http://cdn.passjava.cn/uPic/640Lt8BjR.jpg)

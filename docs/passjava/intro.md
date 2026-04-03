@@ -14,7 +14,7 @@ icon: about
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
-[![星球服务](http://cdn.jayh.club/uPic/image-2024072011065937377a74q.png)](../about-the-author/zhishixingqiu-two-years.md)
+[![星球服务](http://cdn.passjava.cn/uPic/image-2024072011065937377a74q.png)](../about-the-author/zhishixingqiu-two-years.md)
 
 ## 项目说明
 

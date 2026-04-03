@@ -9,13 +9,13 @@ date: 2025-06-17
 
 在编写这个小册的过程中，我看了很多关于 MCP 协议的文章，最令我印象深刻的是黄佳老师的《MCP & A2A 前沿实战》，整体的内容如下：
 
-![](http://cdn.jayh.club/uPic/81a6ee976c249eb740b85b1495d929f0jF2lzR.jpg)
+![](http://cdn.passjava.cn/uPic/81a6ee976c249eb740b85b1495d929f0jF2lzR.jpg)
 
 我与这个专栏是这样**相遇**的：
 
 > 说下和这门课是怎么相遇的，我在本地搭建了一个简易的智能体，里面的知识库就是极客时间的专栏，想对比下这个智能体和 极客时间自带的 AI 搜索的效果，然后提问：mcp 和 a2a 区别，智能体返回的是另外一个专栏的内容，然后 极客时间的 AI 返回的就是这一篇，然后点进去看了下，发现是一个宝藏专栏啊！冲！
 
-![](http://cdn.jayh.club/uPic/image-20250617092619649WhSZx6.png)
+![](http://cdn.passjava.cn/uPic/image-20250617092619649WhSZx6.png)
 
 然后我又开始学习了该专栏中的其他内容。
 
@@ -29,7 +29,7 @@ date: 2025-06-17
 
 然后黄佳老师对我的留言进行了充分的回答，对我帮助极大，并且将该条留言置顶了。我还看到了有多位专栏的共同点赞，说明老师的解答确实很专业。
 
-![](http://cdn.jayh.club/uPic/image-20250617094123914TzYfBO.png)
+![](http://cdn.passjava.cn/uPic/image-20250617094123914TzYfBO.png)
 
 在讲解 A2A 协议时，我回答了文章最后的两个问题：
 
@@ -41,11 +41,11 @@ date: 2025-06-17
 
 黄佳老师也进行了专业的解答：
 
-![](http://cdn.jayh.club/uPic/image-20250617094425217BL6t3j.png)
+![](http://cdn.passjava.cn/uPic/image-20250617094425217BL6t3j.png)
 
 在实战基于 MCP 的 RAG 医疗健康项目中，我深入学习了老师的编写的实战代码，并总结出了一些问题和经验，还顺手提交了一个 PR 给老师。
 
-![](http://cdn.jayh.club/uPic/image-20250617113811351tOxJ0N.png)
+![](http://cdn.passjava.cn/uPic/image-20250617113811351tOxJ0N.png)
 
 只有**多看 + 多总结 + 多输出**，才能吸收到更多的知识。
 
@@ -53,7 +53,7 @@ date: 2025-06-17
 
 我当时是 89 买的，但他们最近有 618 活动，所以比往期买的所有课程的折扣力度都要大，真的挺划算的，有需要的同学可以看看，相信你会有所收获的。
 
-![](http://cdn.jayh.club/uPic/image-202506171152175182HEp6p.png)
+![](http://cdn.passjava.cn/uPic/image-202506171152175182HEp6p.png)
 
 限时 6 折，免费试读👆
 
@@ -63,7 +63,7 @@ date: 2025-06-17
 
 课程设计了六大模块，涉及 10+ 实操案例，带你深度理解和应用 MCP & A2A 协议，**从原理到落地全打通**。并且这门课程中的所有代码都在 GitHhub 上面开源，你可以在（[mcp-in-action](https://github.com/huangjia2019/mcp-in-action)）和（[a2a-in-action](https://github.com/huangjia2019/a2a-in-action)）仓库下载代码，一起动手实操，并提交 PR 共同维护 Repo。
 
-![img](http://cdn.jayh.club/uPic/5eecdaf48460cde599896d9a20442553ba371ae5be0bf7f075b8339e1c4c24835e7cdb15cd30a93e39e8703ac5556d0d951778c999c38cb57625cc2e218ddacca8472805c6d585dc029359062954de7f6dbb71f7a56b55e505abd73712fdb320-20250617114601257uib5Gg.png)
+![img](http://cdn.passjava.cn/uPic/5eecdaf48460cde599896d9a20442553ba371ae5be0bf7f075b8339e1c4c24835e7cdb15cd30a93e39e8703ac5556d0d951778c999c38cb57625cc2e218ddacca8472805c6d585dc029359062954de7f6dbb71f7a56b55e505abd73712fdb320-20250617114601257uib5Gg.png)
 
 ### **学完即能带走的三大硬实力**
 
@@ -73,6 +73,6 @@ date: 2025-06-17
 
 **现在早鸟价叠加 618 知识囤货节，6 折“全款”拿下，做 AI 时代的「弄潮儿」！**
 
-![](http://cdn.jayh.club/uPic/image-20250617114711813qmONAr.png)
+![](http://cdn.passjava.cn/uPic/image-20250617114711813qmONAr.png)
 
 限时 ¥77 元，免费试读👆

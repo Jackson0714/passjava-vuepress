@@ -70,7 +70,7 @@ highlights:
 
 ## 网站原创文章汇总
 
-![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
+![目录](http://cdn.passjava.cn/uPic/image-20251111144306115OOy1qv.png)
 
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
@@ -92,9 +92,9 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 >
 > VIP 版提供正确学习项目的路线☀️
 
-![](http://cdn.jayh.club/uPic/image-20250812065411182QiNbRW.png)
+![vip](http://cdn.passjava.cn/uPic/image-20250812065411182QiNbRW.png)
 
-![](http://cdn.jayh.club/uPic/image-20250812065716226NbH1Jv.png)
+<!-- ![星球](http://cdn.passjava.cn/uPic/image-20250812065716226NbH1Jv.png) -->
 
 > 因作者本人平时很忙，如果需要技术支持，请加入我的 VIP 答疑星球（下方扫码加入）。
 
@@ -124,7 +124,7 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
 六、星球打卡活动，赠书赠书赠书
 
-![](http://cdn.jayh.club/uPic/image-20250812065706798VAOj0b.png)
+<!-- ![星球](http://cdn.passjava.cn/uPic/image-20250812065706798VAOj0b.png) -->
 
 **悟空的多个技术专题**：
 
@@ -185,6 +185,6 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 最新更新会第一时间同步在公众号，推荐关注！另外，公众号上有很多干货不会同步在线阅读网站。
 
-![](http://cdn.jayh.club/uPic/image-20250812065735491fGYieE.png)
+![](http://cdn.passjava.cn/uPic/image-20250812065735491fGYieE.png)
 
-<img src="http://cdn.jayh.club/uPic/zanshangmaO9DpQC.jpg" style="zoom:25%;" />
+<img src="http://cdn.passjava.cn/uPic/zanshangmaO9DpQC.jpg" style="zoom:25%;" />

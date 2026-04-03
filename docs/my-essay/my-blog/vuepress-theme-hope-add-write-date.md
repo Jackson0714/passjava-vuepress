@@ -2,8 +2,8 @@
 title: vuepress-theme-hope 主题添加文章「写作日期」
 category: 博客优化
 tag:
-    - 博客优化
-    - VuePress
+  - 博客优化
+  - VuePress
 date: 2024-08-30
 ---
 
@@ -11,7 +11,7 @@ date: 2024-08-30
 
 发布的文章没有显示发布的时间，此篇文章会介绍如何加上发布时间，效果如下图所示：
 
-![](http://cdn.jayh.club/uPic/image-20240830171529963CMyH03.png)
+![](http://cdn.passjava.cn/uPic/image-20240830171529963CMyH03.png)
 
 ## 操作步骤
 
@@ -19,7 +19,7 @@ date: 2024-08-30
 
 theme.ts 文件中配置 pageInfo
 
-![](http://cdn.jayh.club/uPic/image-20240830171944369uFKuJE.png)
+![](http://cdn.passjava.cn/uPic/image-20240830171944369uFKuJE.png)
 
 `pageInfo` 默认接受一个字符串数组，可以填入各条目名称，填入的顺序即是各条目显示的顺序。
 

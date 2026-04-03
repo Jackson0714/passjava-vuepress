@@ -4,17 +4,17 @@ title: AI 中的 10 张经典原理图
 
 ## MCP 原理
 
-![ ](http://cdn.jayh.club/uPic/a2641eb818b346b569c752dfffcbe505i4egPgle1AqB.png)
+![ ](http://cdn.passjava.cn/uPic/a2641eb818b346b569c752dfffcbe505i4egPgle1AqB.png)
 
-![img](http://cdn.jayh.club/uPic/540bb23219f40ba71db2030c9ca5f0e9XhHeh8O9fPgZ.gif)
+![img](http://cdn.passjava.cn/uPic/540bb23219f40ba71db2030c9ca5f0e9XhHeh8O9fPgZ.gif)
 
-![img](http://cdn.jayh.club/uPic/Screen-Recording-2025-04-20-at-10.48.52-AMMOzjs1.gif)
+![img](http://cdn.passjava.cn/uPic/Screen-Recording-2025-04-20-at-10.48.52-AMMOzjs1.gif)
 
-![img](http://cdn.jayh.club/uPic/image-28LGRO34.png)
+![img](http://cdn.passjava.cn/uPic/image-28LGRO34.png)
 
 ## RAG 检索增强
 
-![img](http://cdn.jayh.club/uPic/rag-diagrammXQvu1.webp)
+![img](http://cdn.passjava.cn/uPic/rag-diagrammXQvu1.webp)
 
 https://www.dailydoseofds.com/16-techniques-to-supercharge-and-build-real-world-rag-systems-part-1/
 

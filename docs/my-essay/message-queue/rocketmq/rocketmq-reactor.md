@@ -63,7 +63,7 @@ graph TD
     style X fill:#fff3e0
 ```
 
-![](http://cdn.jayh.club/uPic/image-20250801093432971tzRoRR.png)
+![](http://cdn.passjava.cn/uPic/image-20250801093432971tzRoRR.png)
 
 ## 线程池层次结构
 

@@ -13,15 +13,15 @@ https://time.geekbang.com/column/article/870723
 
 ### MCP
 
-![mcp](http://cdn.jayh.club/uPic/daa68f3cae4628966f0eb0b2c514e7e0vDy5eP.jpg)
+![mcp](http://cdn.passjava.cn/uPic/daa68f3cae4628966f0eb0b2c514e7e0vDy5eP.jpg)
 
 ### A2A
 
-![img](http://cdn.jayh.club/uPic/d76754941f1353003fa166013f3b0af8n0k8mP.jpg)
+![img](http://cdn.passjava.cn/uPic/d76754941f1353003fa166013f3b0af8n0k8mP.jpg)
 
-![](http://cdn.jayh.club/uPic/1528c3a411598210ccc7a6b31c2e2b1bALAo0D.png)
+![](http://cdn.passjava.cn/uPic/1528c3a411598210ccc7a6b31c2e2b1bALAo0D.png)
 
-![](http://cdn.jayh.club/uPic/387f9d49b956871991d79d76ee6d4623Aa86Ii.jpg)
+![](http://cdn.passjava.cn/uPic/387f9d49b956871991d79d76ee6d4623Aa86Ii.jpg)
 
 ## 总结
 

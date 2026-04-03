@@ -12,12 +12,12 @@ title: Windows 自动连接 wifi
 
 netsh wlan show profiles
 查看 WIFI
-![Pasted image 20240708105258.png](http://cdn.jayh.club/uPic/202407191059987YmTEy8.png)
+![Pasted image 20240708105258.png](http://cdn.passjava.cn/uPic/202407191059987YmTEy8.png)
 
 ## 自动连接网络
 
 netsh wlan connect name=HUAWEI_1729
-![Pasted image 20240708105309.png](http://cdn.jayh.club/uPic/202407191059864nOD3PF.png)
+![Pasted image 20240708105309.png](http://cdn.passjava.cn/uPic/202407191059864nOD3PF.png)
 
 在Windows操作系统中，可以使用批处理脚本（Batch Script）或PowerShell脚本来实现定期自动连接Wi-Fi网络的功能。以下是两种方法的示例：
 
@@ -120,19 +120,19 @@ if ($mediaConnectState -eq '' -or $mediaConnectState -eq $null) {
 #Write-Host "You entered: $userInput"
 ```
 
-![image-20241224112410492](http://cdn.jayh.club/top/202412241124209.png)
+![image-20241224112410492](http://cdn.passjava.cn/top/202412241124209.png)
 
-![image-20241224112202149](http://cdn.jayh.club/top/202412241122290.png)
+![image-20241224112202149](http://cdn.passjava.cn/top/202412241122290.png)
 
-![image-20241224112232268](http://cdn.jayh.club/top/202412241122403.png)
+![image-20241224112232268](http://cdn.passjava.cn/top/202412241122403.png)
 
-![image-20241224112247490](http://cdn.jayh.club/top/202412241122789.png)
+![image-20241224112247490](http://cdn.passjava.cn/top/202412241122789.png)
 
-![image-20241224112258113](http://cdn.jayh.club/top/202412241123106.png)
+![image-20241224112258113](http://cdn.passjava.cn/top/202412241123106.png)
 
-![image-20241224112304851](http://cdn.jayh.club/top/202412241123176.png)
+![image-20241224112304851](http://cdn.passjava.cn/top/202412241123176.png)
 
-![image-20250311195517319](http://cdn.jayh.club/uPic/image-20250311195517319AARzGj.png)
+![image-20250311195517319](http://cdn.passjava.cn/uPic/image-20250311195517319AARzGj.png)
 
 set-ExecutionPolicy RemoteSigned
 

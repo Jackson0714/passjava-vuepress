@@ -3,9 +3,9 @@ title: MCP 基础
 date: 2025-05-11
 ---
 
-![ ](http://cdn.jayh.club/uPic/a2641eb818b346b569c752dfffcbe505i4egPg.png)
+![ ](http://cdn.passjava.cn/uPic/a2641eb818b346b569c752dfffcbe505i4egPg.png)
 
-![img](http://cdn.jayh.club/uPic/540bb23219f40ba71db2030c9ca5f0e9XhHeh8.gif)
+![img](http://cdn.passjava.cn/uPic/540bb23219f40ba71db2030c9ca5f0e9XhHeh8.gif)
 
 大模型怎么知道 要调用哪个 mcp 的哪个服务，如果有多个 mcp 服务，然后 各自的 api 又很相近（比如名字），大模型如何调用正确的？
 

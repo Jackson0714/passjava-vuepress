@@ -24,8 +24,8 @@ date: 2025-03-13
 
 在论文《The Rise and Potential of Large Language Model Based Agents: A Survey》中，有一幅非常经典的图片为我们展示了 Agent 在处理问题时的思考过程。可以看到，图片中将 Agent 拆分成了感知（Perception）、大脑（Brain）以及行动（Action）三部分。
 
-![img](http://cdn.jayh.club/uPic/5e8b8393926006193c04aeaefe5a8e20dMYkrY.png)
+![img](http://cdn.passjava.cn/uPic/5e8b8393926006193c04aeaefe5a8e20dMYkrY.png)
 
-![img](http://cdn.jayh.club/uPic/6e87f9684c0c879f0ffe005152562259aH7Dso.png)
+![img](http://cdn.passjava.cn/uPic/6e87f9684c0c879f0ffe005152562259aH7Dso.png)
 
 1. AI Agent是一个计算实体，可以通过传感器感知环境，自主作出决策，并通过执行器采取行动。 2. AI Agent的需求源于大模型的局限性，包括产生“幻觉”、缺乏垂直领域数据的训练、对实时了解有限或一无所知以及对复杂的数学计算无法完成等问题。 3. AI Agent的实现包括感知、大脑和行动三部分，其中大脑的工作包括自然语言的处理、存储和决策。

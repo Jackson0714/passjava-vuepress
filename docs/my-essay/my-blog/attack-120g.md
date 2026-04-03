@@ -1,5 +1,5 @@
 ---
-title: 我的网站passjava.cn被攻击了，被干掉了 120G CDN 流量，还在持续攻击中...
+title: 我的网站被攻击了，被干掉了 120G CDN 流量，还在持续攻击中...
 date: 2025-08-11
 ---
 
@@ -11,9 +11,9 @@ date: 2025-08-11
 
 很奇怪，我用的都是免费的 10G 流量，很少会出现欠费的情况，怀疑是网站被攻击了。于是检查了最近网站的访问情况，吓我一跳，7天时间被访问了 123G 流量，14 万个独立 IP。
 
-![按小时显示](http://cdn.jayh.club/uPic/image-20250811160348846XCn3BUVB6SQ3.png)
+![按小时显示](http://cdn.passjava.cn/uPic/image-20250811160348846XCn3BUVB6SQ3.png)
 
-![image-20250811200608389](http://cdn.jayh.club/uPic/image-20250811200608389IvbM5p.png)
+![image-20250811200608389](http://cdn.passjava.cn/uPic/image-20250811200608389IvbM5p.png)
 
 今天又看了下流量，发现还在攻击。
 
@@ -23,7 +23,7 @@ date: 2025-08-11
 
 **08-07 17:00～08-11 17:00** 持续攻击了 41 万次，全部报403 错误，也没有造成 CDN 流量。因为在 08-08 18:00 开启了防盗链，所以攻击失败，舒服^\_^
 
-![image-20250811162941250](http://cdn.jayh.club/uPic/image-20250811162941250GH0Reg.png)
+![image-20250811162941250](http://cdn.passjava.cn/uPic/image-20250811162941250GH0Reg.png)
 
 我的网站也恢复了，可以查看：www.passjava.cn
 
@@ -33,7 +33,7 @@ date: 2025-08-11
 
 查看了访问日志，就是一大堆肉鸡服务器不断地访问网站的 5 张图片，造成了大量 CDN 流量，因为按量付费，所以超了很多钱。如下图所示，访问日志中可以看到很多不同的 IP，持续访问网站的图片。
 
-![](http://cdn.jayh.club/uPic/image-20250811164808457VlwGt4.png)
+![](http://cdn.passjava.cn/uPic/image-20250811164808457VlwGt4.png)
 
 ### 处理方案
 
@@ -41,7 +41,7 @@ date: 2025-08-11
 
 工程师回复如下：
 
-![](http://cdn.jayh.club/uPic/image-20250811160754594UZBDJ5k2a9hL.png)
+![](http://cdn.passjava.cn/uPic/image-20250811160754594UZBDJ5k2a9hL.png)
 
 > 在 控制台 - cdn - 统计分析 - 日志分析 中看 top访问情况，比如高频访问的URL和客户端IP。
 >
@@ -67,7 +67,7 @@ date: 2025-08-11
 
 于是按照操作开启了 referer 防盗链。
 
-![](http://cdn.jayh.club/uPic/image-20250811162100399FFZLcEdR4alP.png)
+![](http://cdn.passjava.cn/uPic/image-20250811162100399FFZLcEdR4alP.png)
 
 选择“否”，这样的话，只有携带了相应 referer 请求头的 http请求才能访问资源。
 
@@ -75,7 +75,7 @@ date: 2025-08-11
 
 我检查了下，攻击我的网站的方式确实是没有携带 referer 请求头的 http 请求。如下图所示，Top 1 的请求中的 Referer 为 “-”，表示没有携带 referer。
 
-![](http://cdn.jayh.club/uPic/image-20250811164445800nBsOLJ.png)
+![](http://cdn.passjava.cn/uPic/image-20250811164445800nBsOLJ.png)
 
 选择不允许空 Referer 后，就可以拦截这种不带 Referer 的请求了。
 
@@ -85,25 +85,25 @@ date: 2025-08-11
 
 然后通过 AI 找到了一种解决方案，原理如下图所示。
 
-![](http://cdn.jayh.club/uPic/image-20250811170431891cOXhJw.png)
+![](http://cdn.passjava.cn/uPic/image-20250811170431891cOXhJw.png)
 
-![](http://cdn.jayh.club/uPic/image-20250811170318484VdTHCk.png)
+![](http://cdn.passjava.cn/uPic/image-20250811170318484VdTHCk.png)
 
 ### Nginx 配置
 
 将本地 8888 端口的请求添加 Referer 后，再访问 CDN 域名。
 
-![](http://cdn.jayh.club/uPic/image-20250811170531353rTwNNX.png)
+![](http://cdn.passjava.cn/uPic/image-20250811170531353rTwNNX.png)
 
 ### Proxifier
 
 拦截 typora 中访问 cdn 图片的请求，并将请求发送给本地的 8888 端口。
 
-![image-20250809233044417](http://cdn.jayh.club/uPic/image-20250809233044417gGXhA4.png)
+![image-20250809233044417](http://cdn.passjava.cn/uPic/image-20250809233044417gGXhA4.png)
 
 #### 进程劫持
 
-![](http://cdn.jayh.club/uPic/image-20250811170735837JM0SSD.png)
+![](http://cdn.passjava.cn/uPic/image-20250811170735837JM0SSD.png)
 
 ## 总结
 

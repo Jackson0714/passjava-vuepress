@@ -1,12 +1,12 @@
-
 ## 网站说明
+
 ### 网站地址
 
 http://www.passjava.cn
 
 ### 网站内容
 
-![网站内容](http://cdn.jayh.club/uPic/640tw1bSUvfMqhr.jpg)
+![网站内容](http://cdn.passjava.cn/uPic/640tw1bSUvfMqhr.jpg)
 
 ## 关于我
 
@@ -26,32 +26,29 @@ http://www.passjava.cn
 
 星球提供以下服务：
 
-一、专栏 
+一、专栏
 
-1、《Spring Cloud 微服务实战项目 PassJava》已更新30+❤️ 
+1、《Spring Cloud 微服务实战项目 PassJava》已更新30+❤️
 
-2、《SpringCoud微服务架构原理》已更新16讲🚀 
+2、《SpringCoud微服务架构原理》已更新16讲🚀
 
 3、《分布式协议原理剖析》已更新9讲🤟
 
- 3、《Java并发编程原理剖析》已更新6讲🌴 
+3、《Java并发编程原理剖析》已更新6讲🌴
 
 4、《ELK实战+原理剖析》已更新7讲🚗
 
- 5、《毕设项目：基于ES的知识库系统》计划中🎉 等等正在持续更新中。
+5、《毕设项目：基于ES的知识库系统》计划中🎉 等等正在持续更新中。
 
- 二、与大牛零距离接触，赶快向嘉宾提问吧💪🏻
+二、与大牛零距离接触，赶快向嘉宾提问吧💪🏻
 
- 三、简历修改+职场经验+内推机会🎁 
+三、简历修改+职场经验+内推机会🎁
 
-四、实际大型项目实战经验、架构原理和填坑指南🍎 
+四、实际大型项目实战经验、架构原理和填坑指南🍎
 
-五、前沿技术探讨，如 ChatGPT 
+五、前沿技术探讨，如 ChatGPT
 
 六、星球打卡活动，赠书赠书赠书
-
-![星球优惠券-100](http://cdn.jayh.club/uPic/image-20250326092154874VikRl6.png)
-
 
 **悟空的多个技术专题**：
 
@@ -79,14 +76,13 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 [Windows bushu xiangmu ](http://passjava.cn/my-project/passjava/01.introduction/06.build_on_windows.html)
 
-
 前后端都在这个仓库：
 
 后台代码地址：https://github.com/Jackson0714/PassJava-Platform
 
 ### 2、后端部署教程
 
-[后端部署教程](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark: 
+[后端部署教程](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark:
 
 ### 3、前端部署教程
 
@@ -96,11 +92,11 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 ### 4、小程序部署教程
 
- [小程序部署教程](https://github.com/Jackson0714/PassJava-Platform/blob/master/passjava-miniApp/README.md):heavy_check_mark:
+[小程序部署教程](https://github.com/Jackson0714/PassJava-Platform/blob/master/passjava-miniApp/README.md):heavy_check_mark:
 
 小程序代码地址：https://github.com/Jackson0714/PassJava-Platform/tree/master/passjava-miniApp
 
-##  PassJava-Platform 项目分为公开版和 VIP 版
+## PassJava-Platform 项目分为公开版和 VIP 版
 
 VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
@@ -114,9 +110,7 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 >
 > VIP 版提供正确学习项目的路线☀️
 
-![image-20230326094344901](http://cdn.jayh.club/uPic/image-20230326094344901tF4uTBX6iqFqH8riqnvw656Q.png)
-
-![星球优惠券-100](http://cdn.jayh.club/uPic/image-20250326092154874VikRl61wOtK0.png)
+![image-20230326094344901](http://cdn.passjava.cn/uPic/image-20230326094344901tF4uTBX6iqFqH8riqnvw656Q.png)
 
 ### 简介
 
@@ -128,8 +122,8 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
-![PassJava 官方公众号](http://cdn.jayh.club/blog/20200910/dBsGAx0fBgC2.png?imageslim)
+![PassJava 官方公众号](http://cdn.passjava.cn/blog/20200910/dBsGAx0fBgC2.png?imageslim)
 
 <!-- #endregion home -->
 
-<img src="http://cdn.jayh.club/uPic/zanshangmahGpPlL.JPG" alt="zanshangma" style="zoom: 25%;" />
+<img src="http://cdn.passjava.cn/uPic/zanshangmahGpPlL.JPG" alt="zanshangma" style="zoom: 25%;" />

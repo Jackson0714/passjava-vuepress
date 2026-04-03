@@ -9,7 +9,7 @@ date: 2025-7-28
 
 https://www.kingbase.com.cn/download.html
 
-![img](http://cdn.jayh.club/uPic/1753345189081-fb6cf05e-69b2-46b3-b5fd-bebc1732530daTTGYJq4KEnvHY1d9d.png)
+![img](http://cdn.passjava.cn/uPic/1753345189081-fb6cf05e-69b2-46b3-b5fd-bebc1732530daTTGYJq4KEnvHY1d9d.png)
 
 该版本新增了对SQLServer若干系统视图和内置函数的支持，支持ICU库并对其进行了优化；支持更多的高级查询功能，包括FOR XML子句、PIVOT行列转换操作、GROUP BY子句中基于不同数据类型进行分组、DINSTICT子句与ORDER BY联合中列别名的使用等；新增DML操作触发更新统计信息功能，提升查询性能与增强系统的稳定性；新增临时表优化功能，提升了函数执行效率。在客户端编程接口方面，.Net驱动中新增了对SQL Server 中一些日期函数的支持，加入了更多针对各行业应用场景的定制化功能，助力企业实现平滑迁移和业务高效运行。
 
@@ -29,7 +29,7 @@ KingbaseES数据库(SQLServer兼容版)授权文件时长限制为90天，以数
 
 打开服务 services.msc，找到可执行文件的路径。
 
-![img](http://cdn.jayh.club/uPic/1753338549263-2057c0e6-6355-4454-a732-06e1e6768057xUc95bSrNkVo.png)
+![img](http://cdn.passjava.cn/uPic/1753338549263-2057c0e6-6355-4454-a732-06e1e6768057xUc95bSrNkVo.png)
 
 ```sh
 cd D:\Program Files\Kingbase\ES\V9\KESRealPro\V009R004C012\Server\bin
@@ -70,15 +70,15 @@ port=54325
 
 重新启动，启动成功，如下图所示：
 
-![image-20250724201706850](http://cdn.jayh.club/uPic/image-20250724201706850BjV1gO.png)
+![image-20250724201706850](http://cdn.passjava.cn/uPic/image-20250724201706850BjV1gO.png)
 
 查看进程
 
-![img](http://cdn.jayh.club/uPic/1753341920964-181a2ee3-0ab8-407b-b37f-11e344637c5fbqzTFfOx3DzY.png)
+![img](http://cdn.passjava.cn/uPic/1753341920964-181a2ee3-0ab8-407b-b37f-11e344637c5fbqzTFfOx3DzY.png)
 
 修改数据库连接的端口为 54325，连接成功，如下图所示：
 
-![img](http://cdn.jayh.club/uPic/1753342078542-496bd056-3c1b-49b8-b191-a03a18885e6bVTNMQvqXQ3EN.png)
+![img](http://cdn.passjava.cn/uPic/1753342078542-496bd056-3c1b-49b8-b191-a03a18885e6bVTNMQvqXQ3EN.png)
 
 ### 3、无法连接数据库，报错乱码
 
@@ -103,26 +103,26 @@ port=54325
 
 安装目录选择在C:\Program Files
 
-![img](http://cdn.jayh.club/uPic/341182b6abdda69c7092752cd7f8acccGaawHs.png)
+![img](http://cdn.passjava.cn/uPic/341182b6abdda69c7092752cd7f8acccGaawHs.png)
 
 安装时出现以下错误：
 
-![img](http://cdn.jayh.club/uPic/1425b026cfcaa75e1f157ecfc365e83d4Xnyeh.png)
+![img](http://cdn.passjava.cn/uPic/1425b026cfcaa75e1f157ecfc365e83d4Xnyeh.png)
 
 解决方案
 在安装KingbaseES V8安装包时，安装路径选择非默认路径外（桌面或D盘）的空文件夹：
 
-![img](http://cdn.jayh.club/uPic/548120a73b1d96ebc7a39b4a31c02f6byto38j.png)
+![img](http://cdn.passjava.cn/uPic/548120a73b1d96ebc7a39b4a31c02f6byto38j.png)
 
 这样初始化不会报错并能成功安装：
 
-![img](http://cdn.jayh.club/uPic/41abba615bc50771069a592aabddc4a0ghA8pE.png)
+![img](http://cdn.passjava.cn/uPic/41abba615bc50771069a592aabddc4a0ghA8pE.png)
 
 ### 6、数据库初始化失败
 
 异常：
 
-![KingbaseES人大金仓数据库windows系统安装过程及异常处理](http://cdn.jayh.club/uPic/00cd9808857ce92c0df7e8a1973452cchWLoHo.png)
+![KingbaseES人大金仓数据库windows系统安装过程及异常处理](http://cdn.passjava.cn/uPic/00cd9808857ce92c0df7e8a1973452cchWLoHo.png)
 
 安装过程设置账号密码下一步时出现 初始化失败
 

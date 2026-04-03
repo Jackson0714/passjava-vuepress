@@ -144,7 +144,7 @@ Intel 把 `/opt/homebrew` 换成 `/usr/local` 即可。
 
 brew install nginx
 
-![image-20250809041929494](http://cdn.jayh.club/uPic/image-20250809041929494TmwdpG.png)
+![image-20250809041929494](http://cdn.passjava.cn/uPic/image-20250809041929494TmwdpG.png)
 
 ```SH
 ✘ wukong@wukongs-MacBook-Pro  ~/_workspace/excalidraw/excalidraw  ↰ master  sudo brew services start nginx

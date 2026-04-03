@@ -92,13 +92,13 @@ kingbasev009r001c001b0025single_x86:v1 /usr/sbin/init
 
 启动后，查看日志
 
-![image.png](http://cdn.jayh.club/uPic/70d423d5d32e463eb7ab716a58b8b4c3-20250430164037080zSDXqQ.png)
+![image.png](http://cdn.passjava.cn/uPic/70d423d5d32e463eb7ab716a58b8b4c3-20250430164037080zSDXqQ.png)
 
 进入容器，查看一下进程
-![image.png](http://cdn.jayh.club/uPic/32858dca7db748c5aa33672f8bdf48c8-20250430164047562hOtb37.png)
+![image.png](http://cdn.passjava.cn/uPic/32858dca7db748c5aa33672f8bdf48c8-20250430164047562hOtb37.png)
 
 尝试连接
-![image.png](http://cdn.jayh.club/uPic/eac31d8d50754b7a8bf29452e75dc6e7bzj80Q.png)
+![image.png](http://cdn.passjava.cn/uPic/eac31d8d50754b7a8bf29452e75dc6e7bzj80Q.png)
 
 安装到此结束，按照官方文档核对了一下，应该是没啥问题了
 

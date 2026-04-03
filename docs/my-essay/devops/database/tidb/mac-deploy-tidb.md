@@ -37,7 +37,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://tiup-mirrors.pingcap.com/install.sh
 
 安装完成后如下图所示：
 
-![](http://cdn.jayh.club/uPic/image-20250730103112345o8khOc.png)
+![](http://cdn.passjava.cn/uPic/image-20250730103112345o8khOc.png)
 
 根据上面的提示还需要声明全局环境变量。
 
@@ -63,7 +63,7 @@ tiup playground v7.1.2 --db 2 --pd 3 --kv 3
 
 启动成功后如下图所示：
 
-![](http://cdn.jayh.club/uPic/image-20250730103608065RaYfGg.png)
+![](http://cdn.passjava.cn/uPic/image-20250730103608065RaYfGg.png)
 
 执行该命令时，建议使用内存 10 GiB、4 CPU 及以上配置。配置过低可能会导致系统崩溃。
 
@@ -85,13 +85,13 @@ tiup playground v7.1.2 --db 2 --pd 3 --kv 3
 
 > 当我使用 tiup client 命令时，提示需要执行 tiup playground，但是执行这个命令又会安装 tidb 集群，未找到解决方案。
 >
-> ![](http://cdn.jayh.club/uPic/image-20250730104422373U8Fulw9j5wdI.png)
+> ![](http://cdn.passjava.cn/uPic/image-20250730104422373U8Fulw9j5wdI.png)
 
-使用 Navicat 连接 TiDB 数据库。
+使用 Navicat 连接 TiDB 数据库。密码为空。
 
-![image-20250730104612331](http://cdn.jayh.club/uPic/image-20250730104612331zk43ya.png)
+![image-20250730104612331](http://cdn.passjava.cn/uPic/image-20250730104612331zk43ya.png)
 
-![](http://cdn.jayh.club/uPic/image-20250730111917591nN0aWR.png)
+![](http://cdn.passjava.cn/uPic/image-20250730111917591nN0aWR.png)
 
 ### 访问 Prometheus 页面
 
@@ -101,13 +101,13 @@ tiup playground v7.1.2 --db 2 --pd 3 --kv 3
 
 访问 [TiDB Dashboard](https://docs.pingcap.com/zh/tidb/stable/dashboard-intro/) 页面：http://127.0.0.1:2379/dashboard，默认用户名为 `root`，密码为空。
 
-![image-20250730104829000](http://cdn.jayh.club/uPic/image-20250730104829000NYdE1i.png)
+![image-20250730104829000](http://cdn.passjava.cn/uPic/image-20250730104829000NYdE1i.png)
 
 ### 访问 Grafana 界面
 
 - 访问 Grafana 界面：[http://127.0.0.1:3000](http://127.0.0.1:3000/)，默认用户名和密码都为 `admin`。
 
-![](http://cdn.jayh.club/uPic/image-202507301050373764zat10.png)
+![](http://cdn.passjava.cn/uPic/image-202507301050373764zat10.png)
 
 ### 清理
 

@@ -11,13 +11,13 @@
 3. 在实践中，传输大量数据时，TCP 倾向于发送满载的数据包
 4. Wireshark 中展示的帧长度不包括 4 bytes 的 FCS
 
-![img](http://cdn.jayh.club/uPic/640jDQ61W.png)
+![img](http://cdn.passjava.cn/uPic/640jDQ61W.png)
 
 **二. 问题排查**
 
 先上一张抓包截图，看看你能不能发现其中的异常
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832189ssto54.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832189ssto54.png)
 
 从这张图中一眼可以看出最后几个数据包 Client 一直在重传，但是 Server 没有 Ack
 
@@ -29,11 +29,11 @@
 
 我们再往上倒一眼，看到 Server 连续发送的 6、7、8、9 四个包中，前三个 Length 都是 1506。这里疑点就出现了，为什么 Length 不是 1514。说明很可能中间设备修改了 Client 发给 Server 的 SYN 包中的 MSS，改为了 1452。这里我们有理由怀疑中间设备的 MTU 发送了变化
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832223xUkQZ2.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832223xUkQZ2.png)
 
 再往上从 2 号包还可以看到 Server 发给 Client 的 SYN 包 MSS 是 1460，常规大小，没有变化。这里我们有理由怀疑中间设备对 MSS 的处理出现了异常，只处理了单向的 MSS。导致 Client 没有感知到路径上 MTU 的变化，导致满载 1514 大小的数据帧被丢弃
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832275MG1zgW.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832275MG1zgW.png)
 
 上面只有部分证据，怎么进一步证实呢：
 
@@ -61,7 +61,7 @@ ping -M do -s 1472 -c 3 -i 0.2 ip -t 3
 
 如果没有，再来看一张 TLS 解密后的 HTTP API Get 请求，不知你是否看出其中端倪
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832303HmNsYq.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832303HmNsYq.png)
 
 下面揭晓答案
 
@@ -71,11 +71,11 @@ ping -M do -s 1472 -c 3 -i 0.2 ip -t 3
 
 老版本请求大小：
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832327avsvuP.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832327avsvuP.png)
 
 新版本请求大小：
 
-![img](http://cdn.jayh.club/uPic/640-20240724225832352tfKcuA.png)
+![img](http://cdn.passjava.cn/uPic/640-20240724225832352tfKcuA.png)
 
 Tips: 如果你想要观察 TLS 解密后的数据包，可以配置 SSLKEYLOGFILE 环境变量记录 TLS 会话密钥，再用 Wireshark 解密。Chrome、Curl、Firefox 等都支持这种方法
 

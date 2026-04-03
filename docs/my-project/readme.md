@@ -16,9 +16,9 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 >
 > VIP 版提供正确学习项目的路线☀️
 
-![image-20230326094344901](http://cdn.jayh.club/uPic/image-20230326094344901tF4uTBX6iqFqH8riqnvw656Q.png)
+![image-20230326094344901](http://cdn.passjava.cn/uPic/image-20230326094344901tF4uTBX6iqFqH8riqnvw656Q.png)
 
-![](http://cdn.jayh.club/uPic/xingqiu-2025xYGCEX.png)
+![](http://cdn.passjava.cn/uPic/xingqiu-2025xYGCEX.png)
 
 # PassJava 学习教程
 
@@ -34,39 +34,39 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
 [我的 B站](https://space.bilibili.com/493005591?spm_id_from=333.999.0.0)
 
-![目录](http://cdn.jayh.club/uPic/640tw1bSU.jpg)
+![目录](http://cdn.passjava.cn/uPic/640tw1bSU.jpg)
+
 ### 技术支持🌈
 
 > 因作者本人平时很忙，如果需要技术支持，请加入我的 VIP 答疑星球（下方扫码加入）。
 
 星球提供以下服务：
 
-一、专栏 
+一、专栏
 
-1、《Spring Cloud 微服务实战项目 PassJava》已更新30+❤️ 
+1、《Spring Cloud 微服务实战项目 PassJava》已更新30+❤️
 
-2、《SpringCoud微服务架构原理》已更新16讲🚀 
+2、《SpringCoud微服务架构原理》已更新16讲🚀
 
 3、《分布式协议原理剖析》已更新9讲🤟
 
- 3、《Java并发编程原理剖析》已更新6讲🌴 
+3、《Java并发编程原理剖析》已更新6讲🌴
 
 4、《ELK实战+原理剖析》已更新7讲🚗
 
- 5、《毕设项目：基于ES的知识库系统》计划中🎉 等等正在持续更新中。
+5、《毕设项目：基于ES的知识库系统》计划中🎉 等等正在持续更新中。
 
- 二、与大牛零距离接触，赶快向嘉宾提问吧💪🏻
+二、与大牛零距离接触，赶快向嘉宾提问吧💪🏻
 
- 三、简历修改+职场经验+内推机会🎁 
+三、简历修改+职场经验+内推机会🎁
 
-四、实际大型项目实战经验、架构原理和填坑指南🍎 
+四、实际大型项目实战经验、架构原理和填坑指南🍎
 
-五、前沿技术探讨，如 ChatGPT 
+五、前沿技术探讨，如 ChatGPT
 
 六、星球打卡活动，赠书赠书赠书
 
-![星球优惠券-100](http://cdn.jayh.club/uPic/xingqiu-2025xYGCEX.png)
-
+![星球优惠券-100](http://cdn.passjava.cn/uPic/xingqiu-2025xYGCEX.png)
 
 **悟空的多个技术专题**：
 
@@ -80,7 +80,6 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 面试必备资料，关注公众号`悟空聊架构`即可获取。
 
-
 ## Java 学习路线（赛亚人版）
 
 [🌈Java 学习路线（赛亚人版）](http://passjava.cn/my-project/passjava/01.introduction/09.Java_study_route.html)
@@ -93,14 +92,13 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 [Windows bushu xiangmu ](http://passjava.cn/my-project/passjava/01.introduction/06.build_on_windows.html)
 
-
 前后端都在这个仓库：
 
 后台代码地址：https://github.com/Jackson0714/PassJava-Platform
 
 ### 2、后端部署教程
 
-[后端部署教程](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark: 
+[后端部署教程](http://passjava.cn/my-project/passjava/01.introduction/07.build_on_mac_m1.html):heavy_check_mark:
 
 ### 3、前端部署教程
 
@@ -110,7 +108,7 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 
 ### 小程序部署教程
 
- [小程序部署教程](https://github.com/Jackson0714/PassJava-Platform/blob/master/passjava-miniApp/README.md):heavy_check_mark:
+[小程序部署教程](https://github.com/Jackson0714/PassJava-Platform/blob/master/passjava-miniApp/README.md):heavy_check_mark:
 
 小程序代码地址：https://github.com/Jackson0714/PassJava-Platform/tree/master/passjava-miniApp
 
@@ -121,6 +119,4 @@ Elasticsearch 筋斗云版蓝皮书1.0，回复ES获取
 - PassJava 项目可以教会你如何搭建SpringBoot项目，Spring Cloud项目
 - 采用流行的技术，如 SpringBoot、MyBatis、Redis、 MySql、 MongoDB、 RabbitMQ、Elasticsearch，采用Docker容器化部署。
 
-
 <!-- @include: @article-footer.snippet.md -->
-

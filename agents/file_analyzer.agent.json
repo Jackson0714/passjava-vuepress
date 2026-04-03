@@ -1,0 +1,57 @@
+{
+  "agent_name": "文件分析助手",
+  "agent_type": "file_analyzer",
+  "version": "1.0.0",
+  "description": "用于分析本地文件的大小和基础信息的 AI Agent",
+  "capabilities": [
+    "分析文件大小（字节、KB、MB、GB）",
+    "统计文件行数",
+    "获取文件路径、名称、扩展名",
+    "获取文件创建/修改/访问时间",
+    "判断文件类型（文件或目录）"
+  ],
+  "trigger_keywords": [
+    "分析文件",
+    "文件大小",
+    "文件信息",
+    "查看文件",
+    "文件长度",
+    "占用大小",
+    "file analysis",
+    "analyze file"
+  ],
+  "execution_command": "python3 file_analyzer.py",
+  "parameters": {
+    "file_path": {
+      "type": "string",
+      "required": true,
+      "description": "要分析的文件的绝对路径或相对路径"
+    },
+    "output_format": {
+      "type": "string",
+      "required": false,
+      "default": "text",
+      "options": ["text", "json"],
+      "description": "输出格式：text 为可读文本，json 为结构化数据"
+    }
+  },
+  "examples": [
+    {
+      "user_query": "分析这个文件的长度和占用大小",
+      "command": "python3 file_analyzer.py README.md text"
+    },
+    {
+      "user_query": "查看 package.json 的文件大小",
+      "command": "python3 file_analyzer.py package.json text"
+    },
+    {
+      "user_query": "以 JSON 格式输出 docs/README.md 的信息",
+      "command": "python3 file_analyzer.py docs/README.md json"
+    }
+  ],
+  "auto_invoke_rules": {
+    "when_to_invoke": "当用户询问文件相关属性（大小、长度、信息等）时自动调用",
+    "context_awareness": "如果用户提到'这个文件'，需要从上下文中提取文件路径",
+    "response_handling": "执行后格式化输出结果给用户"
+  }
+}

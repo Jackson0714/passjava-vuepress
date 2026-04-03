@@ -39,7 +39,7 @@ Typora ──(http://cdn域名/xxx.png)──► 127.0.0.1:8888
 ## 关键点
 
 - **只劫持 Typora 进程**：浏览器仍直连七牛云，无冲突。
-- **不改图片 URL**：Typora 里还是写 `http://cdn.jayh.club/…`，路径零改动。
+- **不改图片 URL**：Typora 里还是写 `http://cdn.passjava.cn/…`，路径零改动。
 - **零成本**：Nginx 绿色版 + Proxifier 免费规则即可。
 
 ## ✅ 终极方案：Typora 专用代理（不改系统 hosts，不改图片路径）
@@ -75,7 +75,7 @@ server {
 }
 ```
 
-![](http://cdn.jayh.club/uPic/image-20250809232539681PsdUQC.png)
+![](http://cdn.passjava.cn/uPic/image-20250809232539681PsdUQC.png)
 
 重新加载配置
 
@@ -90,14 +90,14 @@ sudo nginx -s reload
    - **Port**: `8888`
    - **Type**: HTTP
 
-![image-20250809233044417](http://cdn.jayh.club/uPic/image-20250809233044417gGXhA4BtkEFj.png)
+![image-20250809233044417](http://cdn.passjava.cn/uPic/image-20250809233044417gGXhA4BtkEFj.png)
 
 1. 新建 `Proxy Rules`：
    - **Applications**: 填 Typora 的路径（如 `C:\Program Files\Typora\Typora.exe`）
    - **Target hosts**: `your-domain.com`
    - **Action**: 选择刚才的代理服务器
 
-![image-20250809233108439](http://cdn.jayh.club/uPic/image-20250809233108439BH8AET.png)
+![image-20250809233108439](http://cdn.passjava.cn/uPic/image-20250809233108439BH8AET.png)
 
 ### ✅ 效果
 

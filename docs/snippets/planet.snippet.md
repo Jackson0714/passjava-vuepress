@@ -2,16 +2,15 @@
 
 下面是星球提供的部分服务（点击下方图片即可获取知识星球的详细介绍）：
 
-![星球服务](http://cdn.jayh.club/uPic/image-2024072011065937377a74q.png)
+![星球服务](http://cdn.passjava.cn/uPic/image-2024072011065937377a74q.png)
 
 **我有自己的原则，不割韭菜，用心做内容，真心希望帮助到你！**
-
 
 ## 星球限时优惠
 
 这里再送一张 **100** 元的星球专属优惠券，数量有限（价格即将上调。老用户续费半价 ，微信扫码即可续费）！
 
-![知识星球100元优惠卷](hhttp://cdn.jayh.club/uPic/xingqiu-2025xYGCEX.png)
+![知识星球100元优惠卷](hhttp://cdn.passjava.cn/uPic/xingqiu-2025xYGCEX.png)
 
 进入星球之后，记得查看 **[星球使用指南](https://t.zsxq.com/rLGw6)** （一定要看！！！） 和 **[星球优质主题汇总](https://www.yuque.com/wukong-9bwbm/rfukgb/itlxl4wnggtgqone)** 。
 

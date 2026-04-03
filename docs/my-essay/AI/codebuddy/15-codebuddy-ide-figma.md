@@ -1,16 +1,16 @@
 # CodeBuddy IDE 接入 Figma 自动生成代码
 
-![image-20250707160616165](http://cdn.jayh.club/uPic/image-20250707160616165WeJmb9.png)
+![image-20250707160616165](http://cdn.passjava.cn/uPic/image-20250707160616165WeJmb9.png)
 
-![image-20250707160631050](http://cdn.jayh.club/uPic/image-20250707160631050Q2Bhyz.png)
+![image-20250707160631050](http://cdn.passjava.cn/uPic/image-20250707160631050Q2Bhyz.png)
 
-![image-20250707160739079](http://cdn.jayh.club/uPic/image-20250707160739079VIf64o.png)
+![image-20250707160739079](http://cdn.passjava.cn/uPic/image-20250707160739079VIf64o.png)
 
-![image-20250707160903172](http://cdn.jayh.club/uPic/image-20250707160903172buQIej.png)
+![image-20250707160903172](http://cdn.passjava.cn/uPic/image-20250707160903172buQIej.png)
 
 生成项目代码完成。
 
-![image-20250707164436530](http://cdn.jayh.club/uPic/image-20250707164436530E6fanb.png)
+![image-20250707164436530](http://cdn.passjava.cn/uPic/image-20250707164436530E6fanb.png)
 
 发布到 CloudStudio
 
@@ -18,9 +18,9 @@
 
 然后 CodeBuddy IDE 就开始执行发布的功能。
 
-![image-20250707164514286](http://cdn.jayh.club/uPic/image-20250707164514286xPVjch.png)
+![image-20250707164514286](http://cdn.passjava.cn/uPic/image-20250707164514286xPVjch.png)
 
-![](http://cdn.jayh.club/uPic/image-20250707164813316PnrTod.png)
+![](http://cdn.passjava.cn/uPic/image-20250707164813316PnrTod.png)
 
 让我们按照流程图来部署项目：
 
@@ -32,4 +32,4 @@
 
 部署完成。
 
-![](http://cdn.jayh.club/uPic/image-20250707170325354DTrA4n.png)
+![](http://cdn.passjava.cn/uPic/image-20250707170325354DTrA4n.png)
