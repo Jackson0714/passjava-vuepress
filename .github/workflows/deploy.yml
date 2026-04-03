@@ -30,7 +30,7 @@ jobs:
 
       # 4. 安装依赖
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       # 5. 构建静态网站
       - name: Build docs
