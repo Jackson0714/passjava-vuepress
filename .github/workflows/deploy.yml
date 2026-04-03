@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18" # 根据你的项目调整
+          node-version: "22" # 根据你的项目调整
 
       # 3. 缓存 npm 依赖（加速构建）
       - name: Cache dependencies
