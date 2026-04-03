@@ -30,7 +30,16 @@ export default hopeTheme({
     '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
   displayFooter: true,
 
-  pageInfo: ["Author", "Date", "Category", "Tag", "Original", "Word", "ReadingTime", "PageView"],
+  pageInfo: [
+    "Author",
+    "Date",
+    "Category",
+    "Tag",
+    "Original",
+    "Word",
+    "ReadingTime",
+    "PageView",
+  ],
 
   blog: {
     intro: "/about-the-author/",
@@ -73,6 +82,10 @@ export default hopeTheme({
     },
 
     blog: true,
+
+    autoCatalog: {
+      index: true,
+    },
 
     copyright: {
       author: "悟空聊架构(passjava.cn)",
