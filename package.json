@@ -45,6 +45,6 @@
   "devDependencies": {
     "@waline/client": "^3.3.0",
     "@vuepress/helper": "2.0.0-rc.110",
-    "@vuepress/plugin-copyright": "2.0.0-rc.50"
+    "@vuepress/plugin-copyright": "latest"
   }
 }
