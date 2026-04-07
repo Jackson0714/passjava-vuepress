@@ -5,6 +5,7 @@ import { myEssay } from "./my-essay.js";
 import { omnibus } from "./omnibus.js";
 import { aboutTheAuthor } from "./about-the-author.js";
 import { myColumn } from "./my-column.js";
+import { weread } from "./weread.ts";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -13,6 +14,7 @@ export default sidebar({
   "/my-project/": myProject,
   "/my-essay/": myEssay,
   "/omnibus/": omnibus,
+  "/weread/": weread,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",

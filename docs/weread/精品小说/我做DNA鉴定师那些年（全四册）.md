@@ -1,15 +1,18 @@
 ---
+title: "我做DNA鉴定师那些年（全四册）"
+date: 2026-02-24
 doc_type: weread-highlights-reviews
 bookId: "3300193972"
-reviewCount: 2
-noteCount: 4
+reviewCount: 3
+noteCount: 5
 author: 小鉴定师大宝
 cover: https://cdn.weread.qq.com/weread/cover/91/cpplatform_cnndgsvzikwqexjnkt2bzu/t6_cpplatform_cnndgsvzikwqexjnkt2bzu1769667293.jpg
-progress: 74%
-readingTime: 34小时57分钟
+progress: 100%
+readingTime: 43小时57分钟
 readingDate: 2026-02-24
 isbn:
-lastReadDate: 2026-03-11
+lastReadDate: 2026-03-17
+finishedDate: 2026-03-17
 ---
 
 # 元数据
@@ -46,6 +49,11 @@ lastReadDate: 2026-03-11
 > 📌 但可惜贪婪会让人失去理智，只要存在一丝不劳而获的侥幸心理，这种骗术就会有它生存的土壤。
 > ⏱ 2026-03-11 09:34:26 ^3300193972-44-7660-7703
 
+### 族规
+
+> 📌 在很多时候，警方查案子就是这样去一条条立论，再一条条根据调查的情况推翻自己立论的过程。旁人看来或许极其无趣又有挫败感，但就是需要警官们这样一次次枯燥无味地排除种种可能情况才能最终去接近案件的真相。
+> ⏱ 2026-03-15 17:56:54 ^3300193972-60-10052-10150
+
 # 读书笔记
 
 ## 死亡九色鹿
@@ -63,3 +71,8 @@ lastReadDate: 2026-03-11
   - ⏱ 2026-03-07 16:44:17
 
 # 本书评论
+
+## 书评 No.1
+
+^37992928-87G0CRVWA
+⏱ 2026-03-17 22:38:51

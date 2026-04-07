@@ -1,4 +1,6 @@
 ---
+title: "RabbitMQ实战指南"
+date: 2025-07-28
 doc_type: weread-highlights-reviews
 bookId: "3300151914"
 reviewCount: 0

@@ -1,4 +1,6 @@
 ---
+title: "Kafka权威指南（第2版）"
+date: 2025-11-10
 doc_type: weread-highlights-reviews
 bookId: "3300044310"
 reviewCount: 2

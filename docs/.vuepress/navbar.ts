@@ -3,13 +3,14 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "我的专栏", icon: "framework", link: "/home.md" },
   // { text: "架构进阶之路", icon: "book", link: "/home.md" },
-  { text: "我的项目", icon: "icon-temp", link: "/my-project/" },
-  { text: "我的随笔", icon: "icon-temp", link: "/my-essay/" },
-  { text: "精选文集", icon: "icon-temp", link: "/omnibus/"},
+  { text: "我的项目", icon: "framework", link: "/my-project/" },
+  { text: "我的随笔", icon: "framework", link: "/my-essay/" },
+  { text: "精选文集", icon: "framework", link: "/omnibus/" },
+  { text: "读书笔记", icon: "framework", link: "/weread/" },
   // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",
-    icon: "earth-americas",
+    icon: "framework",
     children: [
       {
         text: "星球介绍",
@@ -43,6 +44,6 @@ export default navbar([
   {
     text: "我的博客",
     icon: "site",
-    link: "/article/"
+    link: "/article/",
   },
 ]);

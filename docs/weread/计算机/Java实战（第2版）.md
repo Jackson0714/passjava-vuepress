@@ -1,4 +1,6 @@
 ---
+title: "Java实战（第2版）"
+date: 2023-07-03
 doc_type: weread-highlights-reviews
 bookId: "29971992"
 reviewCount: 0
@@ -12,10 +14,12 @@ readingTime: 0小时43分钟
 readingDate: 2023-07-03
 isbn: 9787115521484
 lastReadDate: 2023-08-29
-
 ---
+
 # 元数据
+
 > [!abstract] Java实战（第2版）
+>
 > - ![ Java实战（第2版）|200](https://cdn.weread.qq.com/weread/cover/42/YueWen_29971992/t7_YueWen_29971992.jpg)
 > - 书名： Java实战（第2版）
 > - 作者： 拉乌尔-加布里埃尔·乌尔玛 马里奥·富斯科 艾伦·米克罗夫特
@@ -30,10 +34,9 @@ lastReadDate: 2023-08-29
 
 ### 第6章 用流收集数据
 
-> 📌 对流调用collect方法将对流中的元素触发一个归约操作（由Collector来参数化） 
+> 📌 对流调用collect方法将对流中的元素触发一个归约操作（由Collector来参数化）
 > ⏱ 2023-08-29 09:17:50 ^29971992-19-3061-3105
 
 # 读书笔记
 
 # 本书评论
-

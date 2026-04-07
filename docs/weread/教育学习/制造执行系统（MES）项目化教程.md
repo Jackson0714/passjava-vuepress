@@ -1,4 +1,6 @@
 ---
+title: "制造执行系统（MES）项目化教程"
+date: 2025-08-25
 doc_type: weread-highlights-reviews
 bookId: "3300081413"
 reviewCount: 0

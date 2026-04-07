@@ -1,4 +1,6 @@
 ---
+title: "《RabbitMQ实战指南》朱忠华"
+date: 1970-01-01
 doc_type: weread-highlights-reviews
 bookId: CB_3eQ7ug7uZCW86vI6sv0UF6al
 reviewCount: 1

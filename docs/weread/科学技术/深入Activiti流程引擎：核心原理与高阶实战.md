@@ -1,4 +1,6 @@
 ---
+title: "深入Activiti流程引擎：核心原理与高阶实战"
+date: 2024-01-10
 doc_type: weread-highlights-reviews
 bookId: "3300058719"
 reviewCount: 1

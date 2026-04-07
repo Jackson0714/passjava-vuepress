@@ -1,4 +1,6 @@
 ---
+title: "Java并发编程实战"
+date: Invalid date
 doc_type: weread-highlights-reviews
 bookId: "39980425"
 reviewCount: 1
@@ -11,10 +13,12 @@ readingTime: 0小时0分钟
 readingDate: Invalid date
 isbn: 9787111370048
 lastReadDate: 2020-07-19
-
 ---
+
 # 元数据
+
 > [!abstract] Java并发编程实战
+>
 > - ![ Java并发编程实战|200](https://wfqqreader-1252317822.image.myqcloud.com/cover/425/39980425/t7_39980425.jpg)
 > - 书名： Java并发编程实战
 > - 作者： 盖茨等
@@ -31,7 +35,7 @@ lastReadDate: 2020-07-19
 
 # 本书评论
 
-## 书评 No.1 
- ^37992928-7iXVTYpN2
-⏱ 2020-07-19 23:54:22
+## 书评 No.1
 
+^37992928-7iXVTYpN2
+⏱ 2020-07-19 23:54:22

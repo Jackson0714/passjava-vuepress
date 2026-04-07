@@ -1,4 +1,6 @@
 ---
+title: "与开源同行：揭秘PingCAP七年创业实践"
+date: 2025-05-10
 doc_type: weread-highlights-reviews
 bookId: "3300034293"
 reviewCount: 10

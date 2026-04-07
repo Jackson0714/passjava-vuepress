@@ -1,4 +1,6 @@
 ---
+title: "TCPIP协议详解卷一协议+英文版"
+date: 1970-01-01
 doc_type: weread-highlights-reviews
 bookId: CB_6h2FwyFwE2p76x76x8DvPGLG
 reviewCount: 0

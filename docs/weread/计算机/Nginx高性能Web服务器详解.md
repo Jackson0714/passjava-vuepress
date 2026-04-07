@@ -1,4 +1,6 @@
 ---
+title: "Nginx高性能Web服务器详解"
+date: 2023-08-31
 doc_type: weread-highlights-reviews
 bookId: "654105"
 reviewCount: 0
@@ -12,10 +14,12 @@ readingTime: 1小时56分钟
 readingDate: 2023-08-31
 isbn: 9787121215186
 lastReadDate: 2023-09-16
-
 ---
+
 # 元数据
+
 > [!abstract] Nginx高性能Web服务器详解
+>
 > - ![ Nginx高性能Web服务器详解|200](https://cdn.weread.qq.com/weread/cover/17/YueWen_654105/t7_YueWen_654105.jpg)
 > - 书名： Nginx高性能Web服务器详解
 > - 作者： 苗泽编著
@@ -31,15 +35,14 @@ lastReadDate: 2023-09-16
 ## 第6章 Nginx服务器的Rewrite功能
 
 > 📌 指令用于实现会话保持功能，将某个客户端的多次请求定向到组内同一台服务器上，保证客户端与服务器之间建立稳定的会话。只有当该服务器处于无效（down）状态时，客户端请求才会被下一个服务器接收和处理。其语法结构为：
-   ​​​​​​ip_hash;​​
-   ip_hash技术在一些情况下非常有用，能够避免我们关心的服务器组内各服务器之间会话共享的问题。但是ip_hash技术在实际使用过程中也有限制。
-   首先，ip_hash指令不能与server指令中的weight变量一起使用。其次，由于ip_hash技术主要根据客户端IP地址分配服务器，因此在整个系统中，Nginx服务器应该是处于最前端的服务器，这样才能获取到客户端的IP地址，否则它得到的IP地址将是位于它前面的服务器地址，从而就会产生问题。同时要注意，客户端IP地址必须是C类地址。Nginx 1.3.2开发版本和Nginx 1.2.2稳定版本开始支持IPv6地址。
-   我们来看下面这个示例：
-   ​​​​​​upstream backend￼ ​​​​{￼ ​​​​  ip_hash;￼ ​​​​  server myback1.proxy.com;￼ ​​​​  server myback2.proxy.com;￼ ​​​​}​​
-   该示例中配置了一个名为backend的服务器组，包含两台后端服务器myback1.proxy.com和myback2.proxy.com。在添加ip_hash指令后，我们使用同一个客户端向Nginx服务器发送请求，将会看到一直是由服务器myback1.proxy.com响应；如果注释掉ip_hash指令后进行相同的操作，发现组内的两台服务器轮流响应请求。 
+> ​​​​​​ip_hash;​​
+> ip_hash技术在一些情况下非常有用，能够避免我们关心的服务器组内各服务器之间会话共享的问题。但是ip_hash技术在实际使用过程中也有限制。
+> 首先，ip_hash指令不能与server指令中的weight变量一起使用。其次，由于ip_hash技术主要根据客户端IP地址分配服务器，因此在整个系统中，Nginx服务器应该是处于最前端的服务器，这样才能获取到客户端的IP地址，否则它得到的IP地址将是位于它前面的服务器地址，从而就会产生问题。同时要注意，客户端IP地址必须是C类地址。Nginx 1.3.2开发版本和Nginx 1.2.2稳定版本开始支持IPv6地址。
+> 我们来看下面这个示例：
+> ​​​​​​upstream backend￼ ​​​​{￼ ​​​​ ip_hash;￼ ​​​​ server myback1.proxy.com;￼ ​​​​ server myback2.proxy.com;￼ ​​​​}​​
+> 该示例中配置了一个名为backend的服务器组，包含两台后端服务器myback1.proxy.com和myback2.proxy.com。在添加ip_hash指令后，我们使用同一个客户端向Nginx服务器发送请求，将会看到一直是由服务器myback1.proxy.com响应；如果注释掉ip_hash指令后进行相同的操作，发现组内的两台服务器轮流响应请求。
 > ⏱ 2023-09-16 17:43:56 ^654105-9-3657-4597
 
 # 读书笔记
 
 # 本书评论
-
