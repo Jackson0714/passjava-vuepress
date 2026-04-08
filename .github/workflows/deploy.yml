@@ -9,32 +9,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # # 1. 拉取代码
-      # - name: Checkout code
-      #   uses: actions/checkout@v4
+      # 1. 拉取代码
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      # # 2. 设置 Node.js 环境
-      # - name: Setup Node.js
-      #   uses: actions/setup-node@v4
-      #   with:
-      #     node-version: "22" # 根据你的项目调整
+      # 2. 设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22" # 根据你的项目调整
 
-      # # 3. 缓存 npm 依赖（加速构建）
-      # - name: Cache dependencies
-      #   uses: actions/cache@v3
-      #   with:
-      #     path: ~/.npm
-      #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-node-
+      # 3. 缓存 npm 依赖（加速构建）
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
 
-      # # 4. 安装依赖
-      # - name: Install dependencies
-      #   run: npm install
+      # 4. 安装依赖
+      - name: Install dependencies
+        run: npm install
 
-      # # 5. 构建静态网站
-      # - name: Build docs
-      #   run: npm run docs:build
+      # 5. 构建静态网站
+      - name: Build docs
+        run: npm run docs:build
 
       # 6. 部署到 Ubuntu 服务器（使用 tar + scp）
       - uses: webfactory/ssh-agent@v0.9.0

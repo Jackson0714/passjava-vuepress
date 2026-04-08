@@ -18,40 +18,26 @@ ls -la /data/passjava/
 
 ## 配置 SSH 免密登录
 
-**在你的本地电脑上生成部署专用密钥**（如果还没有）：
+**在服务器上生成部署专用密钥**（如果还没有）：
 
 ```bash
 # 生成密钥对（一路回车即可）
-ssh-keygen -t ed25519 -C "github-deploy" -f ~/.ssh/github-deploy
+$ ssh-keygen -t ed25519 -C "github-deploy" -f ~/.ssh/github-deploy
 ```
 
-**将公钥添加到 Ubuntu 服务器**：
+添加密钥到 authorized_keys
 
-```bash
-# 1. 查看公钥内容
-cat ~/.ssh/github-deploy.pub
-
-# 2. SSH 登录到你的服务器
-ssh ubuntu@你的服务器IP
-
-# 3. 在服务器上执行以下命令
-mkdir -p ~/.ssh
-echo "这里粘贴公钥内容" >> ~/.ssh/authorized_keys
-chmod 600 ~/.ssh/authorized_keys
-chmod 700 ~/.ssh
-
-# 4. 退出服务器
-exit
+```SH
+$ sudo sh -c 'cat ~/.ssh/github_actions.pub >> ~/.ssh/authorized_keys'
 ```
 
-**测试免密登录**：
+获取密钥，后续会添加到 github 的action 变量中。
 
-```sh
-ssh -i ~/.ssh/github-deploy ubuntu@你的服务器IP
-# 应该直接登录成功，不需要输入密码
+```SH
+sudo cat ~/.ssh/github_actions
 ```
 
-![](http://cdn.passjava.cn/uPic/image-20260403091347275SndM23.png)
+![](http://cdn.passjava.cn/uPic/image-20260408222850468U1EgUl.png)
 
 ## 在 GitHub 仓库中配置 Secrets
 
@@ -59,17 +45,15 @@ ssh -i ~/.ssh/github-deploy ubuntu@你的服务器IP
 
 ![image-20260403091104245](http://cdn.passjava.cn/uPic/image-20260403091104245r9QSAbtIiI0f.png)
 
-添加以下 secrets：
+添加以下 repository secrets：
 
-| Secret 名称       | 值             | 获取方式                                |
-| :---------------- | :------------- | :-------------------------------------- |
-| `SERVER_IP`       | `你的服务器IP` | 你的 Ubuntu 服务器公网 IP               |
-| `SSH_USER`        | `ubuntu`       | 固定值                                  |
-| `SSH_PRIVATE_KEY` | 私钥完整内容   | `cat ~/.ssh/github-deploy` 复制全部内容 |
+| Secret 名称       | 值             | 获取方式                                 |
+| :---------------- | :------------- | :--------------------------------------- |
+| `SERVER_IP`       | `你的服务器IP` | 你的 Ubuntu 服务器公网 IP                |
+| `SSH_USER`        | `ubuntu`       | 固定值                                   |
+| `SSH_PRIVATE_KEY` | 私钥完整内容   | `cat ~/.ssh/github_actions` 复制全部内容 |
 
 **如何获取私钥内容**：
-
-bash
 
 ```
 cat ~/.ssh/github-deploy
