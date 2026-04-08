@@ -36,25 +36,23 @@ jobs:
       # - name: Build docs
       #   run: npm run docs:build
 
-      # 6. 部署到 Ubuntu 服务器（使用 rsync）
+      # 6. 部署到 Ubuntu 服务器（使用 tar + scp）
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
       - name: Deploy to Ubuntu Server
         run: |
-          # 安装 rsync
-          # sudo apt-get update && sudo apt-get install -y rsync
 
-          # 写入 SSH 私钥
-          echo "写入 SSH 私钥开始"
-          mkdir -p ~/.ssh
-          echo "SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}"
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
-          chmod 600 ~/.ssh/deploy_key
-           echo "写入 SSH 私钥结束"
+          # 压缩 dist 目录
+          tar -czf dist.tar.gz -C dist .
 
-          # 同步文件到服务器
-          echo "同步文件到服务器开始"
-          echo "${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}"
-          rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
-            dist/ \
+          # 上传压缩包到服务器
+          scp  -o StrictHostKeyChecking=no \
+            dist.tar.gz \
             ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:/nfs-data/passjava/passjava-learning/
-          echo "同步文件到服务器结束"
+
+          # 在服务器上解压并清理
+          ssh -i -o StrictHostKeyChecking=no \
+            ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} \
+            "cd /nfs-data/passjava/passjava-learning && tar -xzf dist.tar.gz && rm dist.tar.gz"
