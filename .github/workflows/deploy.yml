@@ -43,12 +43,16 @@ jobs:
           sudo apt-get update && sudo apt-get install -y rsync
 
           # 写入 SSH 私钥
+          echo "写入 SSH 私钥开始"
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
+           echo "写入 SSH 私钥结束"
 
           # 同步文件到服务器
+          echo "同步文件到服务器开始"
           rsync -avz --delete \
             -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" \
             dist/ \
             ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:/nfs-data/passjava/passjava-learning/
+          echo "同步文件到服务器结束"

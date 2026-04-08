@@ -21,44 +21,34 @@ def process_markdown_file(file_path):
     # 提取文件名（不含扩展名）作为 title
     title = Path(file_path).stem
     
+    # 检查是否已经有 title 或 date 字段
+    if re.search(r'^title:', content, re.MULTILINE):
+        print(f"跳过 {file_path}: 已存在 title 字段")
+        return False
+    
+    # 提取 readingDate
+    reading_date_match = re.search(r'^readingDate:\s*(.+)$', content, re.MULTILINE)
+    if not reading_date_match:
+        print(f"跳过 {file_path}: 未找到 readingDate 字段")
+        return False
+    
+    reading_date = reading_date_match.group(1).strip()
+    
+    # 在 frontmatter 开头添加 title 和 date
     # 查找 frontmatter 的开始位置 (---)
     frontmatter_start = content.find('---')
     if frontmatter_start == -1:
         print(f"跳过 {file_path}: 未找到 frontmatter")
         return False
     
-    # 检查是否需要添加 title（检查字段是否存在且有值）
-    has_title = bool(re.search(r'^title:\s*\S', content, re.MULTILINE))
-    
-    # 检查是否需要添加 date（检查字段是否存在且有值）
-    has_date = bool(re.search(r'^date:\s*\S', content, re.MULTILINE))
-    
-    # 如果两个字段都已存在且有值，跳过
-    if has_title and has_date:
-        print(f"跳过 {file_path}: title 和 date 字段已存在")
-        return False
-    
-    # 提取 readingDate（用于设置 date 字段）
-    reading_date_match = re.search(r'^readingDate:\s*(.+)$', content, re.MULTILINE)
-    if not reading_date_match and not has_date:
-        print(f"跳过 {file_path}: 未找到 readingDate 字段且缺少 date")
-        return False
-    
-    reading_date = reading_date_match.group(1).strip() if reading_date_match else None
+    # 在 --- 之后插入 title 和 date
+    insert_position = frontmatter_start + 3  # 跳过 ---
     
     # 构建要插入的内容
-    new_fields = ""
-    if not has_title:
-        new_fields += f'\ntitle: "{title}"'
-    if not has_date and reading_date:
-        new_fields += f'\ndate: {reading_date}'
+    new_fields = f"\ntitle: \"{title}\"\ndate: {reading_date}"
+    print(f"构建要插入的内容 {title} {reading_date}: 未找到 frontmatter")
     
-    if not new_fields:
-        print(f"跳过 {file_path}: 无需添加字段")
-        return False
-    
-    # 在 --- 之后插入新字段
-    insert_position = frontmatter_start + 3  # 跳过 ---
+    # 插入新字段
     new_content = content[:insert_position] + new_fields + content[insert_position:]
     
     # 写回文件
@@ -66,10 +56,8 @@ def process_markdown_file(file_path):
         f.write(new_content)
     
     print(f"✓ 处理成功: {file_path}")
-    if not has_title:
-        print(f"  - 添加 title: {title}")
-    if not has_date and reading_date:
-        print(f"  - 添加 date: {reading_date}")
+    print(f"  - title: {title}")
+    print(f"  - date: {reading_date}")
     return True
 
 
