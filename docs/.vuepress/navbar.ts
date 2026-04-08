@@ -7,7 +7,7 @@ export default navbar([
   { text: "我的随笔", icon: "gongzuotai", link: "/my-essay/" },
   { text: "精选文集", icon: "kaoqin", link: "/omnibus/" },
   { text: "读书笔记", icon: "zuoye", link: "/weread/" },
-  { text: "AI人工智能", icon: "icon-ai", link: "/ai/" },
+  { text: "人工智能", icon: "ai", link: "/ai/" },
   // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",
