@@ -48,7 +48,7 @@ jobs:
       # 6. 部署到 Ubuntu 服务器（使用 tar + scp）
       - uses: webfactory/ssh-agent@v0.9.0
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ${{ vars.SSH_PRIVATE_KEY }}
 
       - name: Deploy to Ubuntu Server
         run: |
