@@ -3,10 +3,10 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { text: "我的专栏", icon: "framework", link: "/home.md" },
   // { text: "架构进阶之路", icon: "book", link: "/home.md" },
-  { text: "我的项目", icon: "framework", link: "/my-project/" },
-  { text: "我的随笔", icon: "framework", link: "/my-essay/" },
-  { text: "精选文集", icon: "framework", link: "/omnibus/" },
-  { text: "读书笔记", icon: "framework", link: "/weread/" },
+  { text: "我的项目", icon: "xueyuanapp", link: "/my-project/" },
+  { text: "我的随笔", icon: "gongzuotai", link: "/my-essay/" },
+  { text: "精选文集", icon: "kaoqin", link: "/omnibus/" },
+  { text: "读书笔记", icon: "zuoye", link: "/weread/" },
   // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",
