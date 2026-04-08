@@ -44,9 +44,9 @@ jobs:
       - name: Deploy to Ubuntu Server
         uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
         env:
-          SSH_PRIVATE_KEY: "${{ secrets.SERVER_SSH_KEY }}" # 从仓库密钥读取私钥
+          SSH_PRIVATE_KEY: "${{ secrets.SSH_PRIVATE_KEY }}" # 从仓库密钥读取私钥
           REMOTE_HOST: "${{ secrets.SERVER_IP }}" # 服务器公网IP或域名
-          REMOTE_USER: "${{ secrets.SERVER_USER }}"
+          REMOTE_USER: "${{ secrets.SSH_USER }}"
           SOURCE: "dist/"
           TARGET: "/nfs-data/passjava/passjava-learning" # 服务器目标目录
           ARGS: "-avz --chown=ubuntu:ubuntu" # rsync参数：归档模式/压缩/删除多余文件
