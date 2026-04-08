@@ -1,3 +1,8 @@
+---
+title: RAG 基础知识
+date: 2026-03-13
+---
+
 ![image.png](http://cdn.passjava.cn/uPic/image1ETO9Y.png)
 
 ### 8.0.1 什么是Skills？
