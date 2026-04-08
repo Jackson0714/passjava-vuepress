@@ -7,7 +7,7 @@ date: 2025-09-10
 
 我和 TiDB 的结识来自 modb 社区的小编的邀约，给我发了一篇 TiDB 的第四届征文的活动，于是我开始了解 TiDB。我在 modb 社区发布了 88 篇原创文章，所以小编也是鼓励我参加 TiDB 的活动。
 
-![image-20250910004329552](tidb-myself.assets/image-20250910004329552.png)
+![](http://cdn.passjava.cn/uPic/image-202509100043295525FjYOv.png)
 
 在 TiDB 上注册了一个账号，当时也不知道写些什么好，毕竟对 TiDB 也不了解，后来在论坛上偶然间看到了一个 关于 TiDB 的 Tem On 腾讯云试用活动的征文，加入了 TiDB 的试用群，氛围很好。接着参照 TiDB 官方写的教程自己开始搭建 Tem 环境，中间遇到了一些坑，但是都解决了。
 
@@ -15,23 +15,23 @@ date: 2025-09-10
 
 这是我写的 TiDB 的第一篇：[《超强的运维管理平台，TEM on 腾讯云安装 + TiDB 集群实践》](https://tidb.net/blog/31d2a069)。下图是当时安装完成的记录。
 
-![img](tidb-myself.assets/image-20250728230242471oDymzH-1753717184706.png)
+![](http://cdn.passjava.cn/uPic/image-20250728230242471oDymzH-1753717184706b2Xzb9.png)
 
 在试用期间，有件事我记忆深刻，充了几块钱就把云环境搭建起来了，但是有些服务没有及时停服和删除，被扣了几块钱，难过。下图就是腾讯云的扣费通知。
 
-![image-20250910001605677](tidb-myself.assets/image-20250910001605677.png)
+![](http://cdn.passjava.cn/uPic/image-202509100016056777O2RCH.png)
 
 ### 我的第二篇文章
 
 因为我本地没有 TiDB 的环境，于是就摸索着在本地搭建一个 TiDB 的数据库，于是就有了第二篇：[《Mac M1 部署 TiDB》](https://tidb.net/blog/7dd253cb)。当时搭建完成后还是挺开心的，终于可以自己本地玩转 TiDB 数据库了。下图是当时的安装记录。
 
-![](tidb-myself.assets/3-1753846774228.png)
+![](http://cdn.passjava.cn/uPic/3-17538467742282xR9Lq.png)
 
 ### 我的第三篇文章
 
 隔了一段时间后，我还是想把第四届征文比赛的文章给补上，当时比较感兴趣的 TiDB MCP Server，于是就开始写这篇，但是在使用 TiDB MCP Server 的时候，是需要一个 TiDB 数据库用作测试的，所以我就想看看 TiDB 有没有提供在线的数据库来测试，于是就搜到了 TiDB Cloud，然后我在上面注册了一个账号，开始创建在线的 TiDB 数据库。将这些记录下来，形成了一篇实践的文章：[《TiDB Cloud，强大的云数据库服务，还支持 AI》](https://tidb.net/blog/8fb2b6b1)。下图是当时的操作记录。
 
-![image-20250908201548601.png](tidb-myself.assets/image-20250908201548601-1757336241881-20250910002755581.png)
+![](http://cdn.passjava.cn/uPic/image-20250908201548601-1757336241881-20250910002755581NPg52c.png)
 
 ### 我的第四篇文章
 
@@ -41,7 +41,7 @@ date: 2025-09-10
 
 下图是当时的实践记录：
 
-![](tidb-myself.assets/image-20250909202729789sjsuNG-1757428213168.png)
+![](http://cdn.passjava.cn/uPic/image-20250909202729789sjsuNG-1757428213168RHAbyo.png)
 
 ## 二、TiDB/TiDB 社区给你带来的体验
 
@@ -59,7 +59,7 @@ TiDB 社区给我的体验整体还不错，体现在以下方面：
 
 即使之前没用过 TiDB，从中也可以学习到很多先进的数据库设计思路、分布式的架构原理、分布式 Raft 协议，这些其实是最宝贵的。
 
-![](tidb-myself.assets/image-20250910003256350.png)
+![](http://cdn.passjava.cn/uPic/image-20250910003256350bdwosq.png)
 
 多参加征文活动，获得考试券，然后去考试获取证书，加油呀！
 

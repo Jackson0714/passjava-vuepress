@@ -60,6 +60,10 @@ cat ~/.ssh/github-deploy
 # 复制从 -----BEGIN OPENSSH PRIVATE KEY----- 到结尾的所有内容
 ```
 
+添加三个密钥后如下图所示：
+
+![](http://cdn.passjava.cn/uPic/image-20260408223845293JRIiJl.png)
+
 ## 创建工作流文件
 
 在你的项目根目录创建 `.github/workflows/deploy.yml`：

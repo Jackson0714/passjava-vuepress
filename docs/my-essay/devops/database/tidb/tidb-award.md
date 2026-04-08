@@ -9,21 +9,21 @@ date: 2025-09-22
 
 我最近参加了 TiDB 数据库的征文比赛，总共四个赛道，都获奖了。一个最强写手奖，一个最佳新人奖，一个二等奖，一个三等奖。本篇分享下我与 TiDB 的故事，希望大家对 TiDB 数据库有更多的认识。
 
-![](tidb-award.assets/image-20250922222803223.png)
+![](http://cdn.passjava.cn/uPic/image-2025092222280322396YFvl.png)
 
-![](tidb-award.assets/image-20250922222722994.png)
+![](http://cdn.passjava.cn/uPic/image-20250922222722994TmG1yJwAzmuZ.png)
 
 ### 部分奖品截图
 
 奖品太多了，就截图一个二等奖的。
 
-![](tidb-award.assets/image-20250922222916001.png)
+![](http://cdn.passjava.cn/uPic/image-20250922222916001kyu2pu.png)
 
 ## 一、初识 TiDB
 
 我和 TiDB 的结识来自 modb 社区的小编的邀约，给我发了一篇 TiDB 的第四届征文的活动，于是我开始了解 TiDB。我在 modb 社区发布了 88 篇原创文章，所以小编也是鼓励我参加 TiDB 的活动。
 
-![image.png](https://tidb-blog.oss-cn-beijing.aliyuncs.com/media/image-1757436204278.png)
+![image.png](http://cdn.passjava.cn/uPic/image-175743620427804vCu3.png)
 
 在 TiDB 上注册了一个账号，当时也不知道写些什么好，毕竟对 TiDB 了解的不多，后来在论坛上偶然间看到了一个 关于 TiDB 的 Tem On 腾讯云试用活动的征文，加入了 TiDB 的试用群，氛围很好。接着参照 TiDB 官方写的教程自己开始搭建 Tem 环境，中间遇到了一些坑，但是都解决了。
 
@@ -31,7 +31,7 @@ date: 2025-09-22
 
 这是我写的 TiDB 的第一篇：[《超强的运维管理平台，TEM on 腾讯云安装 + TiDB 集群实践》](https://tidb.net/blog/31d2a069)。下图是当时安装完成的记录。
 
-![image-20250728230242471oDymzH-1753717184706.png](https://tidb-blog.oss-cn-beijing.aliyuncs.com/media/image-20250728230242471oDymzH-1753717184706-1757436218668.png)
+![image-20250728230242471oDymzH-1753717184706.png](http://cdn.passjava.cn/uPic/image-20250728230242471oDymzH-1753717184706-1757436218668kJSpu7.png)
 
 在试用期间，有件事我记忆深刻，充了几块钱就把云环境搭建起来了，但是有些服务没有及时停服和删除，被扣了几块钱，难过。下图就是腾讯云的扣费通知。
 
@@ -87,11 +87,11 @@ TiDB 社区给我的体验整体还不错，体现在以下方面：
 
 最近正好通过了 PCTA 考试，有机会再分享下如何获取这个证书。
 
-![07f50d253b61a681e782ed69e0ea8b7d](tidb-award.assets/07f50d253b61a681e782ed69e0ea8b7d.jpg)
+![](http://cdn.passjava.cn/uPic/07f50d253b61a681e782ed69e0ea8b7dTLAdDt.jpg)
 
 当时做的笔记：
 
-![](tidb-award.assets/15030099407ec7ec7367e510e881ca1c.png)
+![](http://cdn.passjava.cn/uPic/15030099407ec7ec7367e510e881ca1c79B49A.png)
 
 ## 四、思考与展望
 
