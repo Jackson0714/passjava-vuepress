@@ -49,5 +49,5 @@ jobs:
           REMOTE_USER: "${{ secrets.SSH_USER }}"
           SOURCE: "dist/"
           TARGET: "/nfs-data/passjava/passjava-learning" # 服务器目标目录
-          ARGS: "-avz --chown=ubuntu:ubuntu" # rsync参数：归档模式/压缩/删除多余文件
+          ARGS: "-avz" # rsync参数：归档模式/压缩/删除多余文件
 
