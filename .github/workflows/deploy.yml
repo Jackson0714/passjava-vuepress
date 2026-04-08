@@ -42,17 +42,11 @@ jobs:
           ssh-private-key: "${{ secrets.SSH_PRIVATE_KEY }}"
 
       - name: Deploy to Ubuntu Server
-        run: |
-
-          # 压缩 dist 目录
-          tar -czf dist.tar.gz -C dist .
-
-          # 上传压缩包到服务器
-          scp  -o StrictHostKeyChecking=no \
-            dist.tar.gz \
-            ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }}:/nfs-data/passjava/passjava-learning/
-
-          # 在服务器上解压并清理
-          ssh -i -o StrictHostKeyChecking=no \
-            ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} \
-            "cd /nfs-data/passjava/passjava-learning && tar -xzf dist.tar.gz && rm dist.tar.gz"
+        uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
+        env:
+          SSH_PRIVATE_KEY: "${{ secrets.SERVER_SSH_KEY }}" # 从仓库密钥读取私钥
+          REMOTE_HOST: "${{ secrets.SERVER_IP }}" # 服务器公网IP或域名
+          REMOTE_USER: "${{ secrets.SERVER_USER }}"
+          SOURCE: "dist/"
+          TARGET: "/nfs-data/passjava/passjava-learning" # 服务器目标目录
+          ARGS: "-avz --chown=ubuntu:ubuntu" # rsync参数：归档模式/压缩/删除多余文件
