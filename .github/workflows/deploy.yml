@@ -38,9 +38,9 @@ jobs:
 
       - name: Debug secret format
         run: |
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" | head -1
-          echo "${{ secrets.SSH_USER }}" | tail -1
-          echo "${{ secrets.SERVER_IP }}" | grep -c "BEGIN"
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" 
+          echo "${{ secrets.SSH_USER }}" 
+          echo "${{ secrets.SERVER_IP }}"
 
       # 6. 部署到 Ubuntu 服务器（使用 tar + scp）
       - uses: webfactory/ssh-agent@v0.9.0
