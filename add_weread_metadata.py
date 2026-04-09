@@ -20,6 +20,8 @@ def process_markdown_file(file_path):
     
     # 提取文件名（不含扩展名）作为 title
     title = Path(file_path).stem
+    # 移除双引号，避免与 frontmatter 的引号冲突
+    title = title.replace('"', '')
     
     # 检查是否已经有 title 或 date 字段
     if re.search(r'^title:', content, re.MULTILINE):

@@ -17,13 +17,6 @@ export const myEssay = arraySidebar([
     children: "structure",
   },
   {
-    text: "DevOps",
-    icon: "micro-service",
-    prefix: "devops/",
-    collapsible: true,
-    children: "structure",
-  },
-  {
     text: "开源周",
     icon: "micro-service",
     prefix: "open-source-weekly/",
