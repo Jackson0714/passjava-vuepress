@@ -8,6 +8,7 @@ export default navbar([
   { text: "精选文集", icon: "kaoqin", link: "/omnibus/" },
   { text: "读书笔记", icon: "zuoye", link: "/weread/" },
   { text: "人工智能", icon: "ai", link: "/ai/" },
+  { text: "运维", icon: "framework", link: "/devops/" },
   // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",

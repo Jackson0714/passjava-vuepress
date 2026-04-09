@@ -7,6 +7,7 @@ import { aboutTheAuthor } from "./about-the-author.js";
 import { myColumn } from "./my-column.js";
 import { weread } from "./weread.ts";
 import { ai } from "./ai.ts";
+import { devops } from "./devops.ts";
 
 export default sidebar({
   // 应该把更精确的路径放置在前边
@@ -17,6 +18,7 @@ export default sidebar({
   "/omnibus/": omnibus,
   "/weread/": weread,
   "/ai/": ai,
+  "/devops/": devops,
   "/zhuanlan/": [
     "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",
