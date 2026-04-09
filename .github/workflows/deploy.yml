@@ -48,6 +48,6 @@ jobs:
           REMOTE_HOST: "${{ secrets.SERVER_IP }}" # 服务器公网IP或域名
           REMOTE_USER: "${{ secrets.SSH_USER }}"
           SOURCE: "dist/"
-          TARGET: "/nfs-data/passjava/passjava-learning" # 服务器目标目录
+          TARGET: "/nfs-data/passjava/passjava-learning/dist" # 服务器目标目录
           ARGS: "-avz" # rsync参数：归档模式/压缩/删除多余文件
 
