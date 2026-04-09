@@ -17,7 +17,7 @@ footer: |-
 
 highlights:
   - header: 精品专栏
-    description: 「Java学习 + 架构指南」涵盖 Java 程序员、架构师需要掌握的核心知识
+    description: 「Java 架构 + AI 指南」涵盖程序员、AI架构师需要掌握的核心知识
     image: /assets/image/features.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/9-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/9-dark.svg

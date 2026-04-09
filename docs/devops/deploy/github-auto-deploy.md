@@ -77,7 +77,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest # 使用 GitHub 官方 Ubuntu 环境
+    runs-on: ubuntu-latest
 
     steps:
       # 1. 拉取代码
@@ -88,27 +88,39 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18" # 根据你的项目需要调整
+          node-version: "22" # 根据你的项目调整
 
-      # 3. 安装依赖
+      # 3. 缓存 npm 依赖（加速构建）
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      # 4. 安装依赖
       - name: Install dependencies
-        run: npm ci # 使用 package-lock.json 精确安装
+        run: npm install
 
-      # 4. 构建静态网站
+      # 5. 构建静态网站
       - name: Build docs
         run: npm run docs:build
 
-      # 5. 同步到 Ubuntu 服务器
+      # 6. 部署到 Ubuntu 服务器（使用 tar + scp）
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: "${{ secrets.SSH_PRIVATE_KEY }}"
+
       - name: Deploy to Ubuntu Server
-        uses: easingthemes/ssh-deploy@main
+        uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i --delete" # 参数说明见下方
-          SOURCE: "dist/" # 要上传的目录
-          REMOTE_HOST: ${{ secrets.SERVER_IP }}
-          REMOTE_USER: ${{ secrets.SSH_USER }}
-          TARGET: "/var/www/my-docs/" # 服务器上的目标目录
-          EXCLUDE: "/node_modules/, /.git/" # 排除不需要的文件
+          SSH_PRIVATE_KEY: "${{ secrets.SSH_PRIVATE_KEY }}" # 从仓库密钥读取私钥
+          REMOTE_HOST: "${{ secrets.SERVER_IP }}" # 服务器公网IP或域名
+          REMOTE_USER: "${{ secrets.SSH_USER }}"
+          SOURCE: "dist/"
+          TARGET: "/nfs-data/passjava/passjava-learning/dist" # 服务器目标目录
+          ARGS: "-avz --delete" # rsync参数：归档模式，并压缩，并删除多余文件
 ```
 
 > **参数说明**：
@@ -116,7 +128,9 @@ jobs:
 > - `--delete`：删除服务器上本地没有的文件（保持完全同步）
 > - 如果不希望删除服务器上的额外文件，去掉 `--delete` 参数
 
-### 不同同步策略对比
+ssh-deploy 插件使用的 rsync 工具进行同步，rsync 的同步策略对比如下。
+
+### rsync不同同步策略对比
 
 | 需求                         | 命令                             | 行为                                             |
 | :--------------------------- | :------------------------------- | :----------------------------------------------- |
@@ -124,3 +138,11 @@ jobs:
 | **完全镜像**                 | `rsync -avz --delete`            | 源 → 目标：新增+更新 目标端多余文件：**删除**    |
 | **只新增（不覆盖）**         | `rsync -avz --ignore-existing`   | 源 → 目标：只新增 已存在的文件：**不覆盖**       |
 | **只更新（不新增）**         | `rsync -avz --existing --update` | 源 → 目标：只更新已存在的文件 新文件：**不同步** |
+
+github action 执行如下：
+
+![](http://cdn.passjava.cn/uPic/image-20260409133005231VbpCSI.png)
+
+查看一个 action 的详情如下：
+
+![image-20260409133332362](http://cdn.passjava.cn/uPic/image-20260409133332362J7xCav.png)
