@@ -1,4 +1,9 @@
-``` mermaid
+---
+title: RabbitMQ amqp
+date: 2025-04-27
+---
+
+```mermaid
 sequenceDiagram
     participant P as 生产者
     participant S as RabbitMQ Broker
@@ -49,4 +54,3 @@ sequenceDiagram
     S->>P: Connection.CloseOk
 
 ```
-

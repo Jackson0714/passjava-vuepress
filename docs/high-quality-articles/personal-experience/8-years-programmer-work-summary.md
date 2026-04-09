@@ -1,5 +1,6 @@
 ---
 title: 一个中科大差生的 8 年程序员工作总结
+date: 2024-08-18
 category: 技术文章精选集
 author: 陈小房
 tag:

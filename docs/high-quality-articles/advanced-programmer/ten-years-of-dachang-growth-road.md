@@ -1,5 +1,6 @@
 ---
 title: 十年大厂成长之路
+date: 2024-08-18
 category: 技术文章精选集
 author: CodingBetterLife
 tag:

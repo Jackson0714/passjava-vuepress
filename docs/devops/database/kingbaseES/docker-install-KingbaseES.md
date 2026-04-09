@@ -1,5 +1,6 @@
 ---
 title: Docker快速安装KingbaseES
+date: 2025-05-15
 ---
 
 https://bbs.kingbase.com.cn/blogDetail?postsId=91fc0f4d8be5df33b2d4ebb636d239cd

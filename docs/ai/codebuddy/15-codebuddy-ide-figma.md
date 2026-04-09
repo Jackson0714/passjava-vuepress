@@ -1,3 +1,8 @@
+---
+title: CodeBuddy IDE 接入 Figma 自动生成代码
+date: 2025-07-17
+---
+
 # CodeBuddy IDE 接入 Figma 自动生成代码
 
 ![image-20250707160616165](http://cdn.passjava.cn/uPic/image-20250707160616165WeJmb9.png)

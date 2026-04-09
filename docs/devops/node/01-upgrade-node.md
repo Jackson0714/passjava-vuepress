@@ -1,3 +1,8 @@
+---
+title: 升级 node
+date: 2024-08-19
+---
+
 # 升级 node
 
 下载node

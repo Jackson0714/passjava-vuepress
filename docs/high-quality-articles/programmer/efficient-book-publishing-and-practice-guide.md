@@ -1,5 +1,6 @@
 ---
 title: 程序员高效出书避坑和实践指南
+date: 2024-08-18
 category: 技术文章精选集
 author: hsm_computer
 tag:

@@ -1,11 +1,12 @@
 ---
 title: "深入理解大数据架构之——Lambda架构"
+date: 2026-04-03
 source: "https://www.cnblogs.com/cciejh/p/lambda-architecture.html"
 author:
   - "[[Heriam]]"
 published: 2019-11-05
 created: 2025-10-13
-description: "原文链接：https://jiang-hao.com/articles/2019/big-data-lambda-architecture.html 传统系统的问题 “我们正在从IT时代走向DT时代(数据时代)。IT和DT之间，不仅仅是技术的变革，更是思想意识的变革，IT主要是为自我服务，用来更好地"
+description: "原文链接：https://jiang-hao.com/articles/2019/big-data-lambda-architecture.html 传统系统的问题"
 tags:
   - "clippings"
 ---

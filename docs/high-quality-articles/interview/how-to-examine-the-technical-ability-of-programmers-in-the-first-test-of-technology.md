@@ -1,5 +1,6 @@
 ---
 title: 如何在技术初试中考察程序员的技术能力
+date: 2024-08-18
 category: 技术文章精选集
 author: 琴水玉
 tag:

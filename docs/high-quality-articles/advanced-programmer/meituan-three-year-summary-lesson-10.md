@@ -1,5 +1,6 @@
 ---
 title: 美团三年，总结的10条血泪教训
+date: 2024-08-18
 category: 技术文章精选集
 author: CityDreamer部落
 tag:

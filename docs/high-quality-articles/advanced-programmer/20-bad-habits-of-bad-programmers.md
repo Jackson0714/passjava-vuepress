@@ -1,5 +1,6 @@
 ---
 title: 糟糕程序员的 20 个坏习惯
+date: 2024-08-18
 category: 技术文章精选集
 author: Kaito
 tag:

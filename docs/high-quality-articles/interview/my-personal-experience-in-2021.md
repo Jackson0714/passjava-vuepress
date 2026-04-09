@@ -1,5 +1,6 @@
 ---
 title: 校招进入飞书的个人经验
+date: 2024-08-18
 category: 技术文章精选集
 author: 月色真美
 tag:

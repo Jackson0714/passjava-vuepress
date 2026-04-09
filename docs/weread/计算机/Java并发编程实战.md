@@ -1,6 +1,6 @@
 ---
 title: "Java并发编程实战"
-date: Invalid date
+date: 2025-04-27
 doc_type: weread-highlights-reviews
 bookId: "39980425"
 reviewCount: 1

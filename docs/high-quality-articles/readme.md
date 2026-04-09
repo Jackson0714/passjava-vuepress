@@ -1,3 +1,8 @@
+---
+title: 程序人生
+date: 2024-08-18
+---
+
 # 程序人生
 
 <!-- @include: @small-advertisement.snippet.md -->

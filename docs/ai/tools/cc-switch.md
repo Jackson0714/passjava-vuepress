@@ -1,6 +1,6 @@
 ---
 title: cc switch 模型切换工具
-date: 2026-04-09
+date: 2025-04-09
 ---
 
 ![](http://cdn.passjava.cn/uPic/image-20260409090841050p4q8Ps.png)

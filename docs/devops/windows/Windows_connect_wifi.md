@@ -1,5 +1,6 @@
 ---
 title: Windows 自动连接 wifi
+date: 2025-03-05
 ---
 
 ## 背景

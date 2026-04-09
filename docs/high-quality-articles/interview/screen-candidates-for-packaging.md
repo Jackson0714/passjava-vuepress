@@ -1,5 +1,6 @@
 ---
 title: 如何甄别应聘者的包装程度
+date: 2024-08-18
 category: 技术文章精选集
 author: Coody
 tag:

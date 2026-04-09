@@ -1,5 +1,6 @@
 ---
 title: 网络案例排查课-笔记
+date: 2024-12-02
 ---
 
 极客时间课程：https://time.geekbang.com/column/intro/100104301

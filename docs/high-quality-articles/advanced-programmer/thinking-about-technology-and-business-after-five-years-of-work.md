@@ -1,5 +1,6 @@
 ---
 title: 工作五年之后，对技术和业务的思考
+date: 2024-08-18
 category: 技术文章精选集
 author: 知了一笑
 tag:

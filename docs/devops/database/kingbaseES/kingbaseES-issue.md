@@ -1,6 +1,6 @@
 ---
 title: 安装 KingbaseES 遇到的问题
-date: 2025-7-28
+date: 2025-07-28
 ---
 
 ## 一、下载并安装SQL Server 兼容版KES数据库

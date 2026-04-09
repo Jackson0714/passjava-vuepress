@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 fix_date_fields.py)",
+      "Bash(python3:*)",
+      "Bash(find:*)",
+      "Bash(npm run:*)",
+      "Bash(node:*)"
+    ]
+  }
+}

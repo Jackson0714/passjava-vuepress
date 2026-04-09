@@ -1,6 +1,7 @@
 ---
 icon: home
 title: PassJava博客-悟空聊架构-Java教程文档
+date: 2024-08-18
 ---
 
 ::: tip 友情提示

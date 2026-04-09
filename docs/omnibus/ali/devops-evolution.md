@@ -1,5 +1,6 @@
 ---
 title: 十六年所思所感，聊聊这些年我所经历的 DevOps 系统
+date: 2024-08-23
 category: 精选文集
 tag:
   - DevOps
