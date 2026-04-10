@@ -12,7 +12,7 @@ export default hopeTheme({
   favicon: "/favicon.ico",
 
   //https://at.alicdn.com/t/c/font_2922463_o9q9dxmps9.css
-  iconAssets: "//at.alicdn.com/t/c/font_4656749_er6qnj02l9q.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4656749_46zsah6wx24.css",
 
   author: {
     name: "悟空",

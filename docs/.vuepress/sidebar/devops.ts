@@ -4,7 +4,7 @@ export const devops = arraySidebar([
   {
     text: "运维",
     icon: "devops",
-    prefix: "",
+    prefix: "jiankongyunwei",
     collapsible: false,
     children: "structure",
   },

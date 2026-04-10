@@ -3,7 +3,7 @@ title: GStack的26种工作流角色，真正实现一人成军！
 date: 2026-04-10
 ---
 
-![](http://cdn.passjava.cn/uPic/image-202604102158028269f9vqm.png)
+![](http://cdn.passjava.cn/uPic/image-20260411070156951qaZZ3d.png)
 
 ## GStack 是什么？
 

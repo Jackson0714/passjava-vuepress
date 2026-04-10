@@ -8,11 +8,11 @@ export default navbar([
   { text: "精选文集", icon: "kaoqin", link: "/omnibus/" },
   { text: "读书笔记", icon: "zuoye", link: "/weread/" },
   { text: "人工智能", icon: "ai", link: "/ai/" },
-  { text: "运维", icon: "framework", link: "/devops/" },
+  { text: "运维", icon: "jiankongyunwei", link: "/devops/" },
   // { text: "技术摘抄", icon: "icon-temp", link: "/high-quality-articles/"},
   {
     text: "知识星球",
-    icon: "framework",
+    icon: "zhishixingqiu",
     children: [
       {
         text: "星球介绍",
@@ -33,19 +33,19 @@ export default navbar([
   },
   {
     text: "网站相关",
-    icon: "about",
+    icon: "wangzhan",
     children: [
       { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
       {
         text: "更新历史",
-        icon: "history",
+        icon: "xueyuanapp",
         link: "/timeline/",
       },
     ],
   },
   {
     text: "我的博客",
-    icon: "site",
+    icon: "gailan",
     link: "/article/",
   },
 ]);
