@@ -1,6 +1,6 @@
 ---
 title: "SDD-RIPER 团队落地指南：如何让整个团队在一周内跑通大模型编程"
-date: "2026-04-09"
+date: 2026-04-09
 source: "https://mp.weixin.qq.com/s/7-9MkYxvt3brpssxv3tOvg"
 author:
   - "[[无岳]]"
