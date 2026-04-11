@@ -1,5 +1,6 @@
 ---
 title: "SDD-RIPER 团队落地指南：如何让整个团队在一周内跑通大模型编程"
+date: "2026-04-09"
 source: "https://mp.weixin.qq.com/s/7-9MkYxvt3brpssxv3tOvg"
 author:
   - "[[无岳]]"
@@ -8,7 +9,6 @@ created: 2026-04-09
 description: "阿里妹导读本文给你一套可执行的团队落地方案：从安装到试点到全面推开，一周内让整个团队跑通大模型编程，并且质量可"
 tags:
   - "clippings"
-date: "2026-04-09T14:28:10+08:00"
 ---
 
 原创 无岳 _2026年4月9日 08:31_

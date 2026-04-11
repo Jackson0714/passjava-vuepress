@@ -2,6 +2,7 @@
 doc_type: weread-highlights-reviews
 bookId: "23886609"
 title: 逻辑思维的30个技巧
+date: 2026-04-08
 reviewCount: 0
 noteCount: 1
 author: HRInstitute
@@ -9,7 +10,6 @@ cover: https://wfqqreader-1252317822.image.myqcloud.com/cover/609/23886609/t6_23
 progress: 13%
 readingTime: 0小时29分钟
 readingDate: 2026-04-08
-date:
 isbn: 9787313140340
 lastReadDate:
 ---
