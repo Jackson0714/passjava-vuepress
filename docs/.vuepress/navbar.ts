@@ -35,7 +35,7 @@ export default navbar([
     text: "网站相关",
     icon: "wentifankui",
     children: [
-      { text: "关于作者", icon: "zuozhe", link: "/about-the-author/" },
+      { text: "关于作者", icon: "xueyuanapp", link: "/about-the-author/" },
       {
         text: "更新历史",
         icon: "caozuorizhi",
@@ -45,7 +45,7 @@ export default navbar([
   },
   {
     text: "我的博客",
-    icon: "xueyuanapp",
+    icon: "gailan",
     link: "/article/",
   },
 ]);
