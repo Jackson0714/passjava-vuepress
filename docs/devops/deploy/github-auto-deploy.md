@@ -24,13 +24,13 @@ date: 2026-04-07
 
 ```bash
 # 确保目录存在并可写（ubuntu 用户有权限）
-sudo mkdir -p /data/passjava/passjava-learning
+sudo mkdir -p /nfs-data/passjava/passjava-learning
 
 # 将目录所有者改为 ubuntu 用户（这样就不需要 sudo 权限了）
-sudo chown -R ubuntu:ubuntu /data/passjava/passjava-learning
+sudo chown -R ubuntu:ubuntu /nfs-data/passjava/passjava-learning
 
 # 验证权限
-ls -la /data/passjava/
+ls -la /nfs-data/passjava/
 ```
 
 ## 配置 SSH 免密登录

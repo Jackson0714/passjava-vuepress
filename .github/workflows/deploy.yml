@@ -41,7 +41,7 @@ jobs:
         with:
           ssh-private-key: "${{ secrets.SSH_PRIVATE_KEY }}"
 
-      - name: Deploy to Ubuntu Server
+      - name: Deploy to Ubuntu Server1
         uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
         env:
           SSH_PRIVATE_KEY: "${{ secrets.SSH_PRIVATE_KEY }}" # 从仓库密钥读取私钥
@@ -56,7 +56,7 @@ jobs:
         with:
           ssh-private-key: "${{ secrets.SSH_PRIVATE_KEY2 }}"
 
-      - name: Deploy to Ubuntu Server
+      - name: Deploy to Ubuntu Server2
         uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
         env:
           SSH_PRIVATE_KEY: "${{ secrets.SSH_PRIVATE_KEY2 }}" # 从仓库密钥读取私钥
