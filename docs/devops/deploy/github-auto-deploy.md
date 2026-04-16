@@ -45,16 +45,16 @@ $ ssh-keygen -t ed25519 -C "github-deploy" -f ~/.ssh/github-deploy
 添加密钥到 authorized_keys
 
 ```SH
-$ sudo sh -c 'cat ~/.ssh/github_actions.pub >> ~/.ssh/authorized_keys'
+$ sudo sh -c 'cat ~/.ssh/github-deploy.pub >> ~/.ssh/authorized_keys'
 ```
 
 获取密钥，后续会添加到 github 的action 变量中。
 
 ```SH
-sudo cat ~/.ssh/github_actions
+sudo cat ~/.ssh/github-deploy
 ```
 
-![](http://cdn.passjava.cn/uPic/image-20260408222850468U1EgUl.png)
+![](http://cdn.passjava.cn/uPic/image-20260416191443469dQlpVv.png)
 
 ## 在 GitHub 仓库中配置 Secrets
 

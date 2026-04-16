@@ -51,3 +51,18 @@ jobs:
           TARGET: "/nfs-data/passjava/passjava-learning/dist" # 服务器目标目录
           ARGS: "-avz" # rsync参数：归档模式/压缩/删除多余文件
 
+      # 7. 部署到 Ubuntu 服务器2（使用 tar + scp）
+      - uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: "${{ secrets.SSH_PRIVATE_KEY2 }}"
+
+      - name: Deploy to Ubuntu Server
+        uses: easingthemes/ssh-deploy@main # 第三方SSH部署插件
+        env:
+          SSH_PRIVATE_KEY: "${{ secrets.SSH_PRIVATE_KEY2 }}" # 从仓库密钥读取私钥
+          REMOTE_HOST: "${{ secrets.SERVER_IP2 }}" # 服务器公网IP或域名
+          REMOTE_USER: "${{ secrets.SSH_USER2 }}"
+          SOURCE: "dist/"
+          TARGET: "/nfs-data/passjava/passjava-learning/dist" # 服务器目标目录
+          ARGS: "-avz" # rsync参数：归档模式/压缩/删除多余文件
+
