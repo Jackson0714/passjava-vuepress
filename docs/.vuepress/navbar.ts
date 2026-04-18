@@ -32,16 +32,9 @@ export default navbar([
     ],
   },
   {
-    text: "网站相关",
-    icon: "wentifankui",
-    children: [
-      { text: "关于作者", icon: "xueyuanapp", link: "/about-the-author/" },
-      {
-        text: "更新历史",
-        icon: "caozuorizhi",
-        link: "/timeline/",
-      },
-    ],
+    text: "关于作者",
+    icon: "xueyuanapp",
+    link: "/about-the-author/",
   },
   {
     text: "我的博客",
