@@ -1,59 +1,7 @@
 ---
-title: 代码写多了，用OpenClaw提醒自己喝口水（一分钟手搓版）
-date: 2026-04-18
+title: 基于 OpenClaw 智能喝水追踪助手
+date: 2026-04-19
 ---
-
-你好，我是悟空。
-
-今天的文章是我如何用 openclaw 实现了一个非常实用的小工具：**基于 OpenClaw 的智能喝水追踪助手，每小时自动提醒你喝水，帮你养成每天喝够 2000ml 的好习惯。**
-
-工具的源码仓库地址：https://github.com/Jackson0714/openclaw-water-reminder
-
-动动小手，给个 Star 🌟 ！
-
-## 背景
-
-平时总是忘了喝水，特别是周末，所以想搜下有没有提醒喝水的app，搜了下应用商店，发现了一个付费软件需要 128 元，有点小贵，索性自己做一个提醒工具吧。
-
-正好在腾讯云买了一个 openclaw 服务器，直接和微信打通了，非常方便，这样我就拥有了一个 可以编程的微信机器人，24 小时在线。
-
-效果就是这样的，每隔 1 小时提醒我喝水，还具有统计和报表功能。
-
-![](http://cdn.passjava.cn/uPic/water-notice19bUfP6.png)
-
-而如何让 openclaw 实现这个功能也很简单，提示词如下：
-
-```SH
-设置一个定时任务，每天 8:30 到下午 5 点，每天 1 个小时提醒我喝水一次，每天喝水需要达到 2000 ml以上，我回复你 喝水多少 ml，你就帮我累计下，如果累计超过 2000ml，则不需要提醒了。我有时候会问你累计数量，还有可能让你帮我统计今天的喝水情况出一个报表。赶紧开始实现这个任务吧
-```
-
-![](http://cdn.passjava.cn/uPic/image-20260418141253304VNLKNa.png)
-
-当然 openclaw 实现的这个定时任务还有些 bug，不过没关系，可以继续跟它聊天，让它帮你修复 bug。
-
-![](http://cdn.passjava.cn/uPic/image-20260418141415832PKrpPo.png)
-
-## 推送到 GitHub 仓库
-
-我想把 openclaw 生成的喝水提醒脚本提交到 github，并且写一个 README.md 说明文档，供其他小伙伴实用。
-
-![](http://cdn.passjava.cn/uPic/image-20260418140314804qKJcza.png)
-
-我觉得自己提交文件还比较麻烦，直接让 openclaw 帮我提交下吧。
-
-![](http://cdn.passjava.cn/uPic/image-20260418140420324dBYNQn.png)
-
-前提是需要创建一个 github token。而如何创建 github token 也是 openclaw 告诉我的，如下图所示：
-
-![](http://cdn.passjava.cn/uPic/image-20260418135748864ymEM2d.png)
-
-GitHub 仓库名称为`openclaw-water-reminder`，与 openclaw 聊天的截图如下：
-
-![](http://cdn.passjava.cn/uPic/image-20260418140016445euMuvQ.png)
-
-Github 上就有了脚本文件和说明文档了。
-
-![](http://cdn.passjava.cn/uPic/image-202604181406113201lMInJ.png)
 
 ## 说明文档（仅供参考）
 
@@ -265,7 +213,7 @@ A: 能，编辑 `water_tracker.json` 中的 `goal_ml` 字段即可
 
 ### 项目结构
 
-```sh
+```SH
 water-reminder/
 ├── README.md              # 本文件
 └── water_reminder.py      # 核心脚本
