@@ -19,7 +19,7 @@ export default hopeTheme({
     url: "http://passjava.cn/article/",
   },
 
-  repo: "https://github.com/Jackson0714/PassJava-Learning",
+  repo: "https://github.com/Jackson0714/passJava-vuepress",
   docsDir: "docs",
   // 纯净模式：https://theme-hope.vuejs.press/zh/guide/interface/pure.html
   pure: true,
