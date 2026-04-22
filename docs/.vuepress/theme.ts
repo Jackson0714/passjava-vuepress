@@ -27,7 +27,7 @@ export default hopeTheme({
   navbar,
   sidebar,
   footer:
-    '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-1</a>',
+    '<a href="https://beian.miit.gov.cn/" target="_blank">鄂ICP备2020015769号-2</a>',
   displayFooter: true,
 
   pageInfo: [

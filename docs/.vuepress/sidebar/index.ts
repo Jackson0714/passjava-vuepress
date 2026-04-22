@@ -20,10 +20,7 @@ export default sidebar({
   "/ai/": ai,
   "/devops/": devops,
   "/zhuanlan/": [
-    "java-mian-shi-zhi-bei",
     "back-end-interview-high-frequency-system-design-and-scenario-questions",
-    "handwritten-rpc-framework",
-    "source-code-reading",
   ],
   "/": myColumn,
   // 必须放在最后面
