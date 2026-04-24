@@ -27,7 +27,7 @@ highlights:
     features:
       - title: SpringCloud架构解析
         icon: micro-service
-        details: SpringCloud,Nacos,Gateway,Seta,Sentinal
+        details: Nacos、Gateway、Seta、Sentinal
         link: http://www.passjava.cn/my-column/springcloud
 
       - title: ELK统一日志平台原理和实践
@@ -44,4 +44,29 @@ highlights:
         icon: distributed
         details: 分布式原理、Paxos、Raft
         link: http://www.passjava.cn/my-column/distributed-protocol
+
+      - title: Java并发编程
+        icon: java
+        details: Java、多线程、并发
+        link: http://www.passjava.cn/my-column/java-concurrency
+
+      - title: AI 人工智能
+        icon: ai
+        details: AI、Agent、MCP、Skill、Claude、OpenClaw、Harness
+        link: http://www.passjava.cn/ai
+
+      - title: Java 核心知识
+        icon: java
+        details: Java、JVM、面向对象、IO、泛型、反射、Lambda、Stream、Spring
+        link: http://www.passjava.cn/my-column/java-core
+
+      - title: DevOps 运维
+        icon: shezhi
+        details: 数据库、linux、nginx、git
+        link: http://www.passjava.cn/devops
+
+      - title: 开源周
+        icon: caozuorizhi
+        details: 开源项目
+        link: http://www.passjava.cn/my-essay/open-source-weekly
 ---

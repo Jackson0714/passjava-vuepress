@@ -89,7 +89,7 @@ export const myColumn = arraySidebar([
   },
   {
     text: "Java核心知识",
-    icon: "distributed",
+    icon: "java",
     prefix: "my-column/java-core/",
     collapsible: true,
     children: [
@@ -128,7 +128,7 @@ export const myColumn = arraySidebar([
   },
   {
     text: "Java并发编程",
-    icon: "distributed",
+    icon: "java",
     prefix: "my-column/java-concurrent/",
     collapsible: true,
     children: getChildren("./docs/my-column/java-concurrent"),

@@ -62,3 +62,13 @@ String keyPath = "~/xxx";
 String remoteDirectory = "~/jay/geek/docs";
 String filePathWithHttpLink = ("http://你的网站地址/#" + filePath).replace(".md", "");
 ```
+
+## 适用场景
+
+- 个人博客、技术笔记、项目文档等 docsify 站点。
+- 多人协作时，自动生成统一格式的菜单，减少合并冲突。
+- 配合 CI/CD（如 GitHub Actions）实现每次推送代码后自动更新侧边栏。
+
+## 总结
+
+这个小工具解决了 docsify 网站侧边栏需要手动维护的痛点，通过一键生成 `_sidebar.md` 和 `README.md` 文件，大幅提升了文档管理效率。对于维护大量文档或频繁更新菜单的用户来说，该工具能显著减少重复劳动，让内容创作更专注于文档本身而非繁琐的配置工作。开源在 GitHub 上，欢迎使用和贡献。
