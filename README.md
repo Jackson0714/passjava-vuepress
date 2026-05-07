@@ -122,7 +122,11 @@ VIP 版请加入我的星球获取。下方有扫码加入的方式。
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
-![PassJava 官方公众号](http://cdn.passjava.cn/blog/20200910/dBsGAx0fBgC2.png?imageslim)
+#### 公众号：`悟空聊架构`，搜索`PassJava666` 或扫下方二维码加我好友哦~
+
+![公众号：悟空聊架构](https://img-blog.csdnimg.cn/20201224103647797.png)
+![微信：passjava](https://img-blog.csdnimg.cn/2021030222165968.png)
+![分布式算法总结&SpringCloud教程](https://oscimg.oschina.net/oscnet/9c17f118-7159-4de6-bc80-2824b103a9f8.png)
 
 <!-- #endregion home -->
 

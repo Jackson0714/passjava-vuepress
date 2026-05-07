@@ -1,5 +1,5 @@
 ---
-title: mysql集群同步异常到恢复的复盘
+title: 100多G数据同步引发的MySQL集群“连环炸”，我是如何一步步恢复的？
 date: 2026-05-04
 tag:
   - mysql
