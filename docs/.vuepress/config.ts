@@ -52,6 +52,14 @@ export default defineUserConfig({
           s.parentNode.insertBefore(hm, s);
         })();`,
     ],
+    [
+      'script',
+      {
+        async: '',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5833526222120558',
+        crossorigin: 'anonymous',
+      },
+    ],
   ],
 
   bundler: viteBundler(),
