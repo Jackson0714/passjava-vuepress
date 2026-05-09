@@ -7,6 +7,8 @@ tag:
   - 数据库同步
 ---
 
+![](http://cdn.passjava.cn/uPic/20260507-c0dedad9-e138-42c3-95a9-7e2f47a9d0aasrkHgQ.png)
+
 你好，我是悟空~又跟大家见面了~
 
 ## 背景
