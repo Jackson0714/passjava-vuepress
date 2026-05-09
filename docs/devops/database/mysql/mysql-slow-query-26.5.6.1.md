@@ -86,7 +86,7 @@ ALGORITHM=INPLACE, LOCK=NONE;
 | :---------------- | :----------------------------------- | :-------------------------------- |
 | **id**            | 1                                    | 查询中的第1个SELECT               |
 | **select_type**   | SIMPLE                               | 简单查询，不包含子查询或UNION     |
-| **table**         | performance_execute                  | 操作的表名                        |
+| **table**         | perf_execute                         | 操作的表名                        |
 | **type**          | range                                | 范围扫描，比全表扫描好，但比ref差 |
 | **possible_keys** | `dbdoctor_idx__channel_company_id`   | 可能使用的索引                    |
 | **key**           | `dbdoctor_idx__channel_company_id`   | 实际使用的索引                    |
