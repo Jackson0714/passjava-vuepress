@@ -1,5 +1,5 @@
 ---
-Title: 生产环境 MySQL 8.0 LATERAL 实战：3s 慢查询优化到 0.8s 的完整过程
+title: 生产环境 MySQL 8.0 LATERAL 实战：3s 慢查询优化到 0.8s 的完整过程
 date: 2026-05-11
 ---
 
