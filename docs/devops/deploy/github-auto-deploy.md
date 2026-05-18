@@ -7,20 +7,27 @@ date: 2026-04-07
 
 ## 背景
 
-之前通过以下方式更新网站的静态页面：
+之前通过以下方式更新网站的静态页面，但还是**非常不方便**。
 
-- Jenkins 打包部署到远程服务器。需要多点几步。
-- 本地命令行上传到远程服务器。缺点：还需要多执行一步。
-- 调用 MCP 服务上传到远程服务器。缺点：mcp 服务不稳定，有时候成功， 有时候不成功。
-- 登录远程服务器，获取最新代码，执行打包命令。缺点：依赖 node 环境，下载 npm 依赖包总是失败，编译报错。
+- **方式一**：Jenkins 打包部署到远程服务器。缺点：需要多点几步。
 
-有没有更好的方式呢？Github Action 就能解决问题。
+- **方式二**：本地命令行上传到远程服务器。缺点：还需要多执行一步。
 
-### GitHub Action 工作原理
+- **方式三**：调用 MCP 服务上传到远程服务器。缺点：mcp 服务不稳定，有时候成功， 有时候不成功。
+
+- **方式四**：登录远程服务器，获取最新代码，执行打包命令。缺点：依赖 node 环境，下载 npm 依赖包总是失败，编译报错。
+
+**有没有更好的方式呢？Github Action 就能解决问题。**
+
+## GitHub Action 工作原理
 
 首先上传代码到 GitHub，然后 GitHub 检测到代码提交后，github action 功能就会启动 JOB，执行代码仓库中的 workflow 脚本中配置的步骤。
 
-## 在 Ubuntu 服务器上准备目录
+下面介绍配置步骤。
+
+## 配置步骤
+
+### 在 Ubuntu 服务器上准备目录
 
 ```bash
 # 确保目录存在并可写（ubuntu 用户有权限）
@@ -33,7 +40,7 @@ sudo chown -R ubuntu:ubuntu /nfs-data/passjava/passjava-learning
 ls -la /nfs-data/passjava/
 ```
 
-## 配置 SSH 免密登录
+### 配置 SSH 免密登录
 
 **在服务器上生成部署专用密钥**（如果还没有）：
 
@@ -56,7 +63,7 @@ sudo cat ~/.ssh/github-deploy
 
 ![](http://cdn.passjava.cn/uPic/image-20260416191443469dQlpVv.png)
 
-## 在 GitHub 仓库中配置 Secrets
+### 在 GitHub 仓库中配置 Secrets
 
 进入你的 GitHub 仓库：**Settings → Secrets and variables → Actions**
 
@@ -81,7 +88,7 @@ cat ~/.ssh/github-deploy
 
 ![](http://cdn.passjava.cn/uPic/image-20260408223845293JRIiJl.png)
 
-## 创建工作流文件
+### 创建工作流文件
 
 在你的项目根目录创建 `.github/workflows/deploy.yml`：
 
@@ -163,3 +170,7 @@ github action 执行如下：
 查看一个 action 的详情如下：
 
 ![image-20260409133332362](http://cdn.passjava.cn/uPic/image-20260409133332362J7xCav.png)
+
+网站就部署好了，www.passjava.cn
+
+![](http://cdn.passjava.cn/uPic/image-20260518201751009Ts9PO8.png)
